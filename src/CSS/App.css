@@ -6,7 +6,7 @@
 #root {
   --vh: 1vh;
   --random-color: #000;
-  --variable: "hola";
+  /* --variable: "hola"; */
   /* display: flex;
   flex-direction: column;
   flex: 1; */
