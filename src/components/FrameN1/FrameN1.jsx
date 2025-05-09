@@ -53,7 +53,7 @@ const FrameN1 = () => {
           <div className="wrapper-f1">
             <div
               className="left-box  flex-center"
-              style={{ minHeight: "400px", color: "white" }}
+              style={{ minHeight: "40px", color: "white" }}
             >
               <div className="cell-highbox flex-r flex-center">
                 {/* <div className="flex-r w100 flex-end f1-tbtn">
@@ -187,6 +187,7 @@ const FrameN1 = () => {
                         borderRadius: "6px",
                         gap: "10px",
                         height: "auto",
+                        background: "none",
                       }}
                     >
                       <Link
@@ -225,6 +226,7 @@ const FrameN1 = () => {
                         borderRadius: "6px",
                         gap: "10px",
                         height: "auto",
+                        background: "none",
                       }}
                     >
                       <Link to="/works" className="flex-r flex-center gap-10 ">
