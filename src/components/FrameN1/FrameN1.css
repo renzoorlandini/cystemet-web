@@ -112,7 +112,9 @@ a {
 .equipment-web {
   display: flex;
 }
-
+.iscellhome {
+  display: flex;
+}
 @media (max-width: 600px) {
   .container-f1 {
     background-color: lightblue;
@@ -209,6 +211,9 @@ a {
     display: flex;
   }
   .equipment-web {
+    display: none;
+  }
+  .iscellhome {
     display: none;
   }
 }
