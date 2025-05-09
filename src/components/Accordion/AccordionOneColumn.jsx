@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Accordion.css";
 import { RiArrowDownSLine } from "react-icons/ri";
 
@@ -43,9 +43,9 @@ function SingleColumnAccordion({ columnItems, openIndices, toggleAccordion }) {
 function AccordionOneColumn({ items }) {
   const [openIndices, setOpenIndices] = useState({});
 
-  //   useEffect(() => {
-  //     openAll();
-  //   }, []);
+  // useEffect(() => {
+  //   openAll();
+  // }, []);
 
   const toggleAccordion = (index) => {
     setOpenIndices((prev) => ({
@@ -75,9 +75,11 @@ function AccordionOneColumn({ items }) {
 
       <div
         className="accordion-container  accrad"
-        style={{
-          background: "#252121",
-        }}
+        style={
+          {
+            // background: "#252121",
+          }
+        }
       >
         <div
           className="flex-r flex-w100 font-inter500-17 flexr-hcenter border-3-yellow forcell "

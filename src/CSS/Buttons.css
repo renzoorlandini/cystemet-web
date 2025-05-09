@@ -53,3 +53,32 @@
 .btn-2:hover {
   background: rgb(54, 49, 49);
 }
+
+.btn-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  width: auto !important;
+  color: white;
+  background: rgb(0, 0, 0);
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  /* FONT */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+}
+.btn-3:hover {
+  /* background: rgb(54, 49, 49); */
+  color: rgb(95, 164, 243);
+}

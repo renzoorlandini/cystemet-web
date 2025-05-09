@@ -196,20 +196,6 @@ const NavbarResponsive = () => {
               Inicio
             </div>
           </li>
-          <li
-            data-page="about"
-            onClick={handleCellNav}
-            className="nav-tab-side"
-            style={{ borderBottom: "solid 2px #fff" }}
-          >
-            <div
-              className="flex-r flex-center gap-15"
-              style={{ width: "min-content" }}
-            >
-              <FaRegDotCircle style={{ fontSize: "15px" }} />
-              <div>Empresa</div>
-            </div>
-          </li>
 
           <li
             data-page="works"
@@ -239,20 +225,6 @@ const NavbarResponsive = () => {
             </div>
           </li>
           <li
-            data-page="contact"
-            onClick={handleCellNav}
-            className="nav-tab-side"
-            style={{ borderBottom: "solid 2px #fff" }}
-          >
-            <div
-              className="flex-r flex-center gap-15"
-              style={{ width: "min-content" }}
-            >
-              <RiMailFill style={{ fontSize: "15px" }} />
-              Contacto
-            </div>
-          </li>
-          <li
             data-page="accordion"
             onClick={handleCellNav}
             className="nav-tab-side"
@@ -266,6 +238,35 @@ const NavbarResponsive = () => {
               Clientes
             </div>
           </li>
+          <li
+            data-page="about"
+            onClick={handleCellNav}
+            className="nav-tab-side"
+            style={{ borderBottom: "solid 2px #fff" }}
+          >
+            <div
+              className="flex-r flex-center gap-15"
+              style={{ width: "min-content" }}
+            >
+              <FaRegDotCircle style={{ fontSize: "15px" }} />
+              <div>Empresa</div>
+            </div>
+          </li>
+          <li
+            data-page="contact"
+            onClick={handleCellNav}
+            className="nav-tab-side"
+            style={{ borderBottom: "solid 2px #fff" }}
+          >
+            <div
+              className="flex-r flex-center gap-15"
+              style={{ width: "min-content" }}
+            >
+              <RiMailFill style={{ fontSize: "15px" }} />
+              Contacto
+            </div>
+          </li>
+
           <li
             onClick={closeSidebar}
             className="nav-tab-side gap-15"

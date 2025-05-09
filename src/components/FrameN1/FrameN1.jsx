@@ -20,6 +20,11 @@ import { MdOutlineWork } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { IoIosListBox } from "react-icons/io";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { RiToolsFill } from "react-icons/ri";
+import { FaRegCircleDot } from "react-icons/fa6";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import { MdWorkOutline } from "react-icons/md";
 
 const FrameN1 = () => {
   const navigate = useNavigate();
@@ -46,8 +51,8 @@ const FrameN1 = () => {
               className="left-box  flex-center"
               style={{ minHeight: "400px", color: "white" }}
             >
-              <div className="cell-highbox flex-r flex-center ">
-                <div className="flex-r w100 flex-end f1-tbtn">
+              <div className="cell-highbox flex-r flex-center">
+                {/* <div className="flex-r w100 flex-end f1-tbtn">
                   <div
                     className="btn-2 "
                     style={{
@@ -65,34 +70,79 @@ const FrameN1 = () => {
                       </div>
                     </Link>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="f1-upbox">
-                  <div className="f1-cell flex-center">
+                <div
+                  className="f1-upbox "
+                  // style={{ padding: "10px 15px" }}
+                >
+                  <div className="f1-cell flex-start">
                     <Link to="https://wa.me/+5493413444428">
-                      <IoLogoWhatsapp />
+                      <IoLogoWhatsapp
+                        className="flex-r flex-center"
+                        style={{
+                          border: "solid 2px #fff",
+                          borderRadius: "50%",
+                          padding: "5px",
+                        }}
+                      />
                     </Link>
                   </div>
 
-                  <div className="f1-cell flex-center">
+                  <div className="f1-cell flex-center hide-on-mobile">
+                    <Link to="/maps">
+                      <FaMapMarkerAlt
+                        className="flex-r flex-center"
+                        style={{
+                          border: "solid 2px #fff",
+                          borderRadius: "50%",
+                          padding: "6px",
+                        }}
+                      />
+                    </Link>
+                  </div>
+
+                  <div className="f1-cell flex-center contact-cell">
                     <Link to="/contact">
-                      <RiMailLine />
+                      <RiMailLine
+                        className="flex-r flex-center"
+                        style={{
+                          border: "solid 2px #fff",
+                          borderRadius: "50%",
+                          padding: "5px",
+                        }}
+                      />
                     </Link>
                   </div>
 
-                  <div className="f1-cell flex-center">
+                  {/* <div className="f1-cell flex-center">
                     <Link to="/accordion">
-                      <IoIosListBox />
+                      <IoIosListBox className="flex-r flex-center" />
                     </Link>
-                  </div>
-                  <div className="f1-cell flex-center">
-                    <Link to="/works">
-                      <MdOutlineWork />
-                    </Link>
-                  </div>
-                  <div className="f1-cell flex-center ">
+                  </div> */}
+
+                  <div className="f1-cell flex-end equipment-cell">
                     <Link to="/equipment-c">
-                      <FaTools />
+                      <RiToolsFill
+                        className="flex-r flex-center"
+                        style={{
+                          border: "solid 2px #fff",
+                          borderRadius: "50%",
+                          padding: "5px",
+                        }}
+                      />
+                    </Link>
+                  </div>
+                  <div className="f1-cell flex-end equipment-web">
+                    <Link to="/equipment">
+                      <RiToolsFill
+                        className="flex-r flex-center"
+                        style={{
+                          border: "solid 2px #fff",
+                          borderRadius: "50%",
+                          padding: "5px",
+                        }}
+                      />
                     </Link>
                   </div>
                 </div>
@@ -119,42 +169,96 @@ const FrameN1 = () => {
               </div>
 
               <div
-                className="cell-highbox flex-center "
+                className="cell-highbox flexr-hcenter flex-end"
                 style={{ padding: "20px 0px" }}
               >
-                <div className="flex-r w100 flex-end f1-tbtn">
+                <div
+                  className="flex-r w100 flex-end f1-tbtn gap-10 "
+                  style={{ width: "100%", padding: "0px 0px" }}
+                >
+                  <div className="flex-r flex-start" style={{ width: "33.3%" }}>
+                    <div
+                      className="btn-3 flex-r flex-center "
+                      style={{
+                        borderRadius: "6px",
+                        gap: "10px",
+                        height: "auto",
+                      }}
+                    >
+                      <Link
+                        to="/accordion"
+                        className="flex-r flex-center gap-10 "
+                      >
+                        <div className="flex-r ">Clientes</div>
+                        <div className="flex-r">
+                          <FaArrowRight />
+                        </div>
+                      </Link>
+                    </div>
+                  </div>
+
                   <div
-                    className="btn-2 flex-r flex-center "
-                    style={{
-                      borderRadius: "6px",
-                      gap: "10px",
-                      height: "auto",
-                    }}
+                    className="flex-r flex-center "
+                    style={{ width: "33.3%" }}
                   >
-                    <Link to="/accordion" className="flex-r flex-center gap-10">
-                      <div className="flex-r">Clientes</div>
-                      <div className="flex-r">
-                        <FaArrowRight />
+                    <div
+                      className=" flex-r flex-center "
+                      style={{
+                        borderRadius: "6px",
+                        gap: "10px",
+                        height: "auto",
+                      }}
+                    >
+                      <div className="flex-r flex-center">
+                        <FaRegCircleDot />
                       </div>
-                    </Link>
+                    </div>
+                  </div>
+                  <div className="flex-r flex-end" style={{ width: "33.3%" }}>
+                    <div
+                      className="btn-3 flex-r flex-center "
+                      style={{
+                        borderRadius: "6px",
+                        gap: "10px",
+                        height: "auto",
+                      }}
+                    >
+                      <Link to="/works" className="flex-r flex-center gap-10 ">
+                        <div className="flex-r ">Trabajos</div>
+                        <div className="flex-r">
+                          <FaArrowRight />
+                        </div>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-                <div className="f1-tbtn-cell">
-                  <div
-                    className="btn-2 flex-r flex-center "
-                    style={{
-                      borderRadius: "6px",
-                      gap: "10px",
-                      height: "auto",
-                      background: "#1d1f24",
-                    }}
-                  >
-                    <Link to="/works" className="flex-r flex-center gap-10">
-                      <div className="flex-r">Trabajos </div>
-                      <div className="flex-r">
-                        <FaArrowRight />
+
+                <div className="flex-r w100 work-button-cell">
+                  <div style={{ width: "100%" }} className="flex-r  flex-end ">
+                    <div className="f1-tbtn-cell w100 flex-center">
+                      <div
+                        className="btn-2 flex-r flex-center "
+                        style={{
+                          borderRadius: "6px",
+                          gap: "10px",
+                          height: "auto",
+                          background: "#ffffff",
+                          color: "rgb(32, 108, 179)",
+                          // color: "none",
+                          // background: "none",
+                        }}
+                      >
+                        <Link
+                          to="/works"
+                          className="flex-r flex-center gap-10 "
+                        >
+                          <div className="flex-r">Trabajos </div>
+                          <div className="flex-r">
+                            <FaArrowRight />
+                          </div>
+                        </Link>
                       </div>
-                    </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -193,7 +297,7 @@ const FrameN1 = () => {
                     // borderTop: "solid 6px #ffffff",
                   }}
                 >
-                  <div className="flex-c flex-w100 flex-h100  flex-center ">
+                  <div className="flex-c flex-w100 flex-h100  flex-center">
                     <div
                       onClick={handleAbout}
                       className="flex-r flex-center flex-w60 flex-h50  gap-15 "
@@ -203,13 +307,13 @@ const FrameN1 = () => {
                       }}
                     >
                       <div
-                        className="flex-r flex-end"
+                        className="flex-r flex-end "
                         style={{
-                          fontSize: "30px",
+                          fontSize: "20px",
                           width: "auto",
                         }}
                       >
-                        <BsBox />
+                        <FaArrowUpRightFromSquare />
                       </div>
                       <div className="flex-r" style={{ width: "auto" }}>
                         Acerca de nosotros
@@ -227,9 +331,9 @@ const FrameN1 = () => {
                     >
                       <div
                         className="flex-r flex-end"
-                        style={{ fontSize: "30px", width: "auto" }}
+                        style={{ fontSize: "25px", width: "auto" }}
                       >
-                        <FaChartLine />
+                        <MdWorkOutline />
                       </div>
                       <div className="flex-r" style={{ width: "auto" }}>
                         Trabajos

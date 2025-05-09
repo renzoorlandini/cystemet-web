@@ -79,8 +79,9 @@ a {
 }
 .f1-cell {
   display: flex;
-  width: 20%;
-  /* border: solid 1px rgb(39, 122, 150); */
+  width: 33.3%;
+  /* border: solid 2px rgb(150, 83, 39); */
+  font-size: 35px;
 }
 .f1-tbtn {
   display: flex;
@@ -93,8 +94,23 @@ a {
 }
 
 .f1-upbox {
-  display: none;
+  display: flex;
   width: 100%;
+  /* border: solid 2px rgb(150, 83, 39); */
+}
+
+.work-button-cell {
+  display: none;
+}
+
+.contact-cell {
+  display: none;
+}
+.equipment-cell {
+  display: none;
+}
+.equipment-web {
+  display: flex;
 }
 
 @media (max-width: 600px) {
@@ -166,7 +182,7 @@ a {
   .cell-highbox {
     display: flex !important;
     width: 100%;
-    height: 25%;
+    height: 20%;
     /* border: solid 1px lightblue; */
     padding: 50px;
   }
@@ -178,5 +194,17 @@ a {
   }
   .f1-upbox {
     display: flex;
+  }
+  .work-button-cell {
+    display: flex;
+  }
+  .contact-cell {
+    display: flex;
+  }
+  .equipment-cell {
+    display: flex;
+  }
+  .equipment-web {
+    display: none;
   }
 }

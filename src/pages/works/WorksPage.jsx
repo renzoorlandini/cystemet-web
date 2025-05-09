@@ -80,7 +80,7 @@ const WorksPage = () => {
                   name="tanques"
                   onClick={() => handleSelection("tanques", "tanques")}
                   style={{
-                    padding: "7px 0px",
+                    padding: "15px 0px",
                     borderBottom: "solid 2px #fff",
                     cursor: "pointer",
                   }}
@@ -91,7 +91,7 @@ const WorksPage = () => {
                   id="jaulas"
                   onClick={() => handleSelection("jaulas", "jaulas")}
                   style={{
-                    padding: "7px 0px",
+                    padding: "15px 0px",
                     borderBottom: "solid 2px #fff",
                     cursor: "pointer",
                   }}
@@ -99,8 +99,31 @@ const WorksPage = () => {
                   JAULAS
                 </div>
                 <div
+                  id="estructurasPesadas"
+                  onClick={() => handleSelection("jaulas", "jaulas")}
                   style={{
-                    padding: "7px 0px",
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  ESTRUCTURAS PESADAS
+                </div>
+                <div
+                  id="tuberias"
+                  onClick={() => handleSelection("jaulas", "jaulas")}
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  TUBERÍAS
+                </div>
+
+                <div
+                  style={{
+                    padding: "15px 0px",
                     borderBottom: "solid 2px #fff",
                   }}
                 >
