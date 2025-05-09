@@ -280,8 +280,15 @@ a {
   height: 20px; /* Adjust size as needed */
 }
 
+.cellfooter {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .hide-on-phone {
     display: none;
+  }
+  .cellfooter {
+    display: flex;
   }
 }

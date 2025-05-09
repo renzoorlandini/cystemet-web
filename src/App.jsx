@@ -12,6 +12,7 @@ import FloatingButton from "./components/FloatingElements/FloatingButton/Floatin
 import EquipmentPageC from "./pages/equipment-c/EquipmentPageC";
 import AboutPage from "./pages/about/AboutPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import FooterMobile from "./components/FooterMobile/FooterMobile";
 
 // import About from "./pages/about/About";
 

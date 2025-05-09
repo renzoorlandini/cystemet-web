@@ -25,6 +25,7 @@ import { RiToolsFill } from "react-icons/ri";
 import { FaRegCircleDot } from "react-icons/fa6";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { MdWorkOutline } from "react-icons/md";
+import FooterMobile from "../FooterMobile/FooterMobile";
 
 const FrameN1 = () => {
   const navigate = useNavigate();
@@ -360,6 +361,7 @@ const FrameN1 = () => {
             </div>
           </div>
         </div>
+        <FooterMobile />
       </div>
 
       {/* FRAME 2*/}
