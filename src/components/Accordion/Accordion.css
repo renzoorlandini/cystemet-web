@@ -1,0 +1,146 @@
+/* Main container */
+.accordion-container {
+  width: 100%;
+  /* margin: 20px auto; */
+  height: 100%;
+  box-sizing: border-box;
+  /* padding: 50px 50px; */
+  /* background: white; */
+}
+
+.accordion-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  gap: 60px;
+  flex: 1;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  flex-direction: column;
+  width: 50%;
+}
+
+/* Each accordion */
+.single-accordion {
+  width: 100%;
+}
+
+/* Accordion items */
+.accordion-item {
+  border-bottom: 2px solid #a8a8a8;
+  border-bottom: 2px solid #ffffff;
+
+  width: 100%;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 15px;
+  /* background: #ffffff; */
+  /* background: rgb(238, 234, 234); */
+  background: none;
+  color: #4b4b4b;
+  color: white;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.accordion-header:hover {
+  color: rgb(203, 226, 255);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  text-align: left;
+}
+
+.icon-container {
+  text-align: right;
+}
+
+/* Content area */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  /* background: none; */
+  background: black;
+  /* color: rgb(56, 133, 233); */
+  color: rgb(95, 98, 102);
+  color: rgb(230, 227, 227);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.accordion-content.active {
+  max-height: 2000px;
+}
+
+.content-divider {
+  border-top: 2px solid #a8a8a8;
+  border-top: 2px solid #ffffff;
+}
+
+.content-inner {
+  padding: 15px;
+}
+
+/* Icon animation */
+.accordion-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-icon.open {
+  transform: rotate(180deg);
+}
+
+.forcell {
+  display: none;
+}
+
+.accrad {
+  border-radius: "8px";
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .forcell {
+    display: flex !important;
+  }
+  .accrad {
+    border-radius: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+  }
+  .accordion-container {
+    width: 100%;
+    /* margin: 20px auto; */
+    height: 100%;
+    box-sizing: border-box;
+    /* padding: 50px 50px; */
+    /* background: white; */
+  }
+}

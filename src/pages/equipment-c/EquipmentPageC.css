@@ -1,0 +1,9 @@
+.tools-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+
+  box-sizing: border-box;
+}

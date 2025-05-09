@@ -1,0 +1,50 @@
+/* BORDER */
+.border-1-white {
+  border: solid 1px white;
+}
+.border-2-white {
+  border: solid 2px white;
+}
+.border-3-white {
+  border: solid 3px white;
+}
+
+.border-1-black {
+  border: solid 1px black;
+}
+.border-2-black {
+  border: solid 2px black;
+}
+.border-3-black {
+  border: solid 3px black;
+}
+
+.border-l-2-black {
+  border-left: solid 2px black;
+}
+.border-r-2-black {
+  border-right: solid 2px black;
+}
+.border-l-2-white {
+  border-left: solid 2px white;
+}
+.border-r-2-white {
+  border-right: solid 2px white;
+}
+
+.border-1-blue {
+  border: solid 1px blue;
+}
+.border-3-blue {
+  border: solid 3px blue;
+}
+
+.border-3-green {
+  border: solid 3px rgb(82, 238, 82);
+}
+.border-3-red {
+  border: solid 3px red;
+}
+.border-3-yellow {
+  border: solid 3px yellow;
+}

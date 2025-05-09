@@ -1,0 +1,2 @@
+_Hacerlo funcionar con una API que tome imagenes de la web.
+_Agregar play pause/Hover mouse/Swipable/Video version con mute.

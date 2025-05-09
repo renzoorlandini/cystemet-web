@@ -1,0 +1,58 @@
+.about-wrapper {
+  width: 60%;
+  padding: 50px;
+}
+.about {
+  padding: 50px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 22px;
+  /* border: solid 1px #ffffff; */
+}
+.about-image {
+  display: none;
+  width: 50%;
+  height: calc(100vh - 60px);
+  background-image: url("/images/Taller/TallerN1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-title {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 22px;
+}
+
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .about {
+    padding: 30px 30px;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 20px;
+    border: none;
+  }
+  .about-image {
+    display: none;
+  }
+  .about-wrapper {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+}

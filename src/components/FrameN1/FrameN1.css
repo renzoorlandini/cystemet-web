@@ -1,0 +1,178 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-f1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 1300px;
+  background: #ffffff;
+  /* border: solid 3px rgb(241, 114, 75); */
+  /* background-image: url("images/BG6.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; */
+  /* background-size: conver; */
+}
+
+.main-f12 {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
+
+.wrapper-f1 {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  background-color: #000000;
+  /* border: solid 3px rgb(92, 190, 255); */
+  /* padding: 20px; */
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.cystemet-box {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+  padding: 30px 0px;
+}
+.cystemet-box-font1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 35px;
+  letter-spacing: 3px;
+}
+.cystemet-box-font2 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 25px;
+  letter-spacing: 3px;
+}
+.cyst-btn {
+  width: 100%;
+  height: 25%;
+  /* border: solid 1px lightblue; */
+}
+.cell-highbox {
+  display: flex !important;
+  width: 60%;
+  height: 20%;
+  /* border: solid 1px lightblue; */
+}
+.f1-cell {
+  display: flex;
+  width: 20%;
+  /* border: solid 1px rgb(39, 122, 150); */
+}
+.f1-tbtn {
+  display: flex;
+}
+.f1-tbtn-cell {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+
+.f1-upbox {
+  display: none;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .container-f1 {
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    min-width: 100px !important;
+    max-width: 600px;
+    /* border: solid 3px green; */
+  }
+  .main-f12 {
+    width: 100vw;
+    padding: 30px;
+    background: #000000;
+    background: rgb(32, 108, 179);
+  }
+  .wrapper-f1 {
+    box-sizing: border-box;
+    /* border: solid 3px rgb(156, 24, 97); */
+    max-width: 600px;
+    background: rgb(32, 108, 179);
+  }
+  .left-box {
+    box-sizing: border-box;
+    width: 100%;
+    /* border: solid 3px green; */
+  }
+  .cystemet-box {
+    width: 100%;
+    height: 50% !important;
+    padding: 50px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 20px;
+  }
+  .cystemet-box-font1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 35px;
+    letter-spacing: 3px;
+  }
+  .cystemet-box-font2 {
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+  .hide-on-phone {
+    display: none;
+  }
+
+  .cyst-btn {
+    width: 100%;
+    height: 25%;
+    border: solid 1px lightblue;
+  }
+  .cell-highbox {
+    display: flex !important;
+    width: 100%;
+    height: 25%;
+    /* border: solid 1px lightblue; */
+    padding: 50px;
+  }
+  .f1-tbtn {
+    display: none;
+  }
+  .f1-tbtn-cell {
+    display: flex;
+  }
+  .f1-upbox {
+    display: flex;
+  }
+}

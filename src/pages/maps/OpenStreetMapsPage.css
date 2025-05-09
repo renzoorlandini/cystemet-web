@@ -1,0 +1,49 @@
+.os-maps-container {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 59px);
+  background: rgb(179, 176, 176);
+}
+
+.floating-scroll-button-map {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: calc(25px + 61px);
+  right: 25px;
+  width: 40px;
+  height: auto;
+  padding: 15px 0px;
+  margin: 0px;
+  gap: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 8px;
+  border: solid 2px rgb(255, 255, 255);
+  background-color: rgb(134, 137, 141);
+
+  color: white;
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  */
+  z-index: 1000;
+  /*Highz-indextostayontopofotherelements*/
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.floating-scroll-button-map a {
+  display: flex;
+  font-size: 24px;
+  padding: none;
+  margin: none;
+  border: none;
+}
+.floating-scroll-button-map img {
+  /* border: solid 1px green; */
+  /* background-color: pink; */
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+}

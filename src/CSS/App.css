@@ -1,0 +1,280 @@
+@import url("Text.css");
+@import url("Buttons.css");
+@import url("Borders.css");
+@import url("Flex.css");
+
+#root {
+  --random-color: #000;
+  --variable: "hola";
+  /* display: flex;
+  flex-direction: column;
+  flex: 1; */
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%; /* Ensures full height of viewport */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make sure all elements inherit box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 100vw;
+  width: 100%;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 17px;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-space-60 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.bsbb {
+  box-sizing: border-box;
+}
+
+.zi1 {
+  z-index: 1;
+}
+
+/* SPACING */
+
+.p0 {
+  padding: 0;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-30 {
+  padding: 30px;
+}
+.p-50 {
+  padding: 50px;
+}
+.p-70 {
+  padding: 70px;
+}
+.pad-15 {
+  padding: 15px;
+}
+.m0 {
+  margin: 0;
+}
+.mar-15 {
+  margin: 15px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-5 {
+  gap: 5px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+/* ALIGN / JUSTIFY */
+.align-c-c {
+  align-content: center;
+}
+.justify-i-c {
+  justify-items: center;
+}
+.align-i-c {
+  align-items: center;
+}
+.justify-c-c {
+  justify-content: center;
+}
+
+/* MIN,MAX WIDTH/HEIGHT */
+.ha {
+  height: auto;
+}
+.h5 {
+  height: 5px;
+}
+.h10 {
+  height: 10px;
+}
+.h20 {
+  height: 20px;
+}
+.h30 {
+  height: 30px;
+}
+.h100 {
+  height: 100%;
+}
+
+.wa {
+  width: auto;
+}
+.w100 {
+  width: 100%;
+}
+.w75 {
+  width: 75%;
+}
+.w80 {
+  width: 80%;
+}
+.w50 {
+  width: 50%;
+}
+
+.min100vh {
+  min-height: 100vh;
+}
+.min50vh {
+  min-height: 50vh;
+}
+
+.minw-minc {
+  min-width: min-content;
+}
+.minh-minc {
+  min-height: min-content;
+}
+.minvh-min-60 {
+  min-height: calc(100vh - 59px);
+}
+.minw-auto {
+  min-width: auto;
+}
+.minw-250 {
+  min-width: 250px;
+}
+.minh-500 {
+  min-height: 500px;
+}
+.minw-min-c {
+  min-width: min-content;
+}
+.minw-max-c {
+  min-width: max-content;
+}
+
+.h-c {
+  justify-items: center;
+}
+
+.justify-r {
+  justify-items: right;
+}
+
+.h-l {
+  justify-items: left;
+}
+
+.div-c {
+  height: 100%;
+  width: 100%;
+  justify-items: center;
+  align-content: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+/* CONTAINER SIZING */
+.wh100 {
+  width: 100%;
+  height: 100%;
+}
+.w50h100 {
+  width: 50%;
+  height: 100%;
+}
+
+/* BACKGROUND */
+
+.bck-pink {
+  background: pink;
+}
+
+/* BUTTONS */
+
+/*FLOATING LINKS*/
+
+/*  */
+
+.floating-scroll-button {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: calc(25px + 61px);
+  right: 25px;
+  width: 40px;
+  height: auto;
+  padding: 15px 0px;
+  margin: 0px;
+  gap: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 8px;
+  border: solid 2px rgb(255, 255, 255);
+  background-color: rgb(134, 137, 141);
+
+  color: white;
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  */
+  z-index: 1000;
+  /*Highz-indextostayontopofotherelements*/
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.floating-scroll-button a {
+  display: flex;
+  font-size: 24px;
+  padding: none;
+  margin: none;
+}
+.floating-scroll-button img {
+  border: solid 1px green;
+  background-color: pink;
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+}
+
+@media (max-width: 600px) {
+  .hide-on-phone {
+    display: none;
+  }
+}

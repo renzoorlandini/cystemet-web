@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* TEXT */
+.letter-s4 {
+  letter-spacing: 4px;
+}
+.bold-t {
+  font-weight: bold;
+}
+.small-t {
+  font-size: small;
+}
+
+/***FONTS***/
+
+/*KANTU*/
+.font-kantu {
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+/*INTER TIGHT*/
+.font-inter-tight600-30 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 30px;
+}
+.font-inter-tight600-25 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 30px;
+}
+.font-inter-tight600-20 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 30px;
+}
+
+/*INTER*/
+.font-inter400-100 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 100px;
+  font-style: normal;
+}
+.font-inter500-40 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 40px;
+  font-style: normal;
+}
+.font-inter500-14 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter500-20 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter500-17 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter500-14 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter600-14 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter600-40 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter600-30 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter600-25 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter600-20 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter600-15 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter600-12 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter600-17 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 20px;
+}
+.font-inter500-15 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+/*COLOR*/
+.color-black {
+  color: black;
+}

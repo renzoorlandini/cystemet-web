@@ -1,0 +1,289 @@
+/*NAVBAR*/
+
+.navbar-wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  max-height: 60px;
+  margin: 0px;
+  padding: 0px;
+  min-width: fit-content;
+  border-bottom: solid 1px rgb(61, 56, 56);
+  /* border-bottom: solid 1px rgb(108, 173, 233); */
+  z-index: 10010;
+  top: 0;
+  left: 0;
+  background: white;
+  /* FONT */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.navbar {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: max-content;
+  height: 100%;
+  max-height: 59px;
+  /* margin: 3px; */
+  padding: 0;
+  margin: 0;
+  /* justify-content: space-between; */
+  /* height: 60px; */
+  /* white-space: nowrap; */
+  background: rgb(78, 78, 78);
+  /* border: solid 1px blue; */
+  /* background: rgb(108, 173, 233); */
+  color: white;
+  /* color: rgb(26, 24, 24); */
+}
+
+.navbar-phone {
+  display: none;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: max-content;
+  height: 100%;
+  max-height: 59px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  background: rgb(78, 78, 78);
+  /* border: solid 1px blue; */
+  /* background: rgb(108, 173, 233); */
+  color: white;
+  /* color: rgb(26, 24, 24); */
+}
+
+.navbar-sub {
+  display: flex;
+  width: 100%;
+  min-width: max-content;
+  /* justify-content: space-between; */
+  height: 40px;
+  /* white-space: nowrap; */
+  background: rgb(48, 48, 53);
+}
+
+.navbar-left {
+  width: 15%;
+  max-width: 15%;
+  min-width: max-content;
+  /* background-color: lightblue; */
+  justify-content: left;
+}
+
+.navbar-center {
+  width: 70%;
+  min-width: max-content;
+  height: 100%;
+  padding: 20px;
+  margin: 0;
+  /* background-color: lightgreen; */
+  justify-content: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* Allows expansion */
+  /* flex-grow: 1; */
+  width: 15%;
+  min-width: fit-content;
+  max-width: 15%;
+  /* min-width: unset;  */
+  /* background-color: lightcoral; */
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-shrink: 0; /* Prevent shrinking */
+  width: 60px !important; /* Override percentage widths */
+  flex-grow: 1; /* Allows expansion */
+}
+
+.nav-tab {
+  display: flex;
+  box-sizing: border-box;
+  /* color: rgb(41, 41, 41); */
+  color: white;
+  align-content: center;
+  width: auto;
+  height: 100%;
+  padding: 0px 15px;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  /* background: blue; */
+}
+
+.nav-tab-side {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  align-content: center;
+  width: 100% !important;
+  cursor: pointer;
+  list-style: none;
+  padding: 15px;
+}
+
+.nav-tab-separador {
+  align-content: center;
+  width: 40px;
+  height: 100%;
+}
+
+.navbar-input {
+  display: flex;
+  /* box-sizing: border-box; */
+  height: 100%;
+  outline: none;
+  border: none;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  border-left: solid 1px rgba(0, 0, 0, 0.2);
+  border-right: solid 1px rgba(0, 0, 0, 0.2);
+  padding: 0 25px;
+  padding-left: 45px; /* Make space for icon */
+  background-image: url("./magnifying-glass-solid.svg");
+  background-repeat: no-repeat;
+  background-position: 12px center; /* Adjust position */
+  background-size: 8%;
+}
+
+.cystemetsrl {
+  letter-spacing: 4px;
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.cystemetsrl-phone {
+  display: none;
+  padding: 0px 25px;
+  letter-spacing: 4px;
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.side-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  /* align-items: flex-start;
+  justify-content: flex-start; */
+  flex-direction: column;
+  background: rgb(22, 21, 21);
+  backdrop-filter: blur(5px);
+  margin: 0;
+  padding: 0;
+  /* border: solid 2px yellow; */
+}
+
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .navbar-phone {
+    display: flex !important;
+  }
+  .icon-menu-navbar {
+    display: flex !important;
+  }
+  .navbar-right {
+    max-width: none !important;
+  }
+  .navbar-left {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+  .cystemetsrl-phone {
+    display: flex !important;
+  }
+  .nav-tab {
+    box-sizing: border-box;
+    /* color: rgb(41, 41, 41); */
+    color: white;
+    width: 100vw;
+    height: 100%;
+    border: solid 1px red;
+    /* padding: 0px 15px; */
+    /* cursor: pointer; */
+    list-style: none;
+    text-decoration: none;
+  }
+  .navbar-wrapper {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+}
+
+/*ICONS*/
+
+.icon-bell {
+  display: flex;
+  width: 50px;
+  cursor: pointer;
+  background-image: url("../../../public/bell-solid.svg");
+  background-repeat: no-repeat;
+  background-position: 12px center; /* Adjust position */
+  background-size: 35%;
+}
+
+.icon-menu-navbar {
+  display: none;
+  width: auto;
+  right: 0;
+  padding: 0px 35px;
+  margin-left: auto;
+  /* Pushes icon to the far right */
+  cursor: pointer;
+  background-image: url("../../../public/bars-solid.svg");
+  background-repeat: no-repeat;
+  background-position: 12px center; /* Adjust position */
+  background-size: 35%;
+}
+
+.app-icon-navbar {
+  display: flex;
+  width: 60px;
+  height: 30px;
+  right: 0;
+  margin-left: auto; /* Pushes icon to the far right */
+  cursor: pointer;
+  background-image: url("../../../public/app-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 12px center; /* Adjust position */
+  background-size: 60%;
+}

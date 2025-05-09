@@ -1,0 +1,74 @@
+.container-f1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 1300px;
+  background: #ffffff;
+  /* border: solid 3px rgb(241, 114, 75); */
+  /* background-image: url("images/BG6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+  /* background-size: conver; */
+}
+
+.main-f1 {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
+
+.wrapper-f1 {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  /* background-color: #d5f2fd;  */
+  /* border: solid 3px rgb(92, 190, 255); */
+  /* padding: 20px; */
+}
+
+.slidern2-wrapper {
+  margin: 0 auto 2rem;
+  max-width: 1000px;
+}
+
+.slidern2-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.works-menu {
+  width: 25%;
+  padding: 30px;
+}
+/* className="flex-c flex-w50 bsbb hide-on-mobile" */
+
+.works-grid {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 75%;
+}
+.backwork {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .hide-on-phone {
+    display: none;
+  }
+  .works-grid {
+    display: none;
+    width: 100%;
+  }
+  .backwork {
+    display: flex;
+  }
+  .works-menu {
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+.tools-list {
+  display: flex;
+  padding: 50px;
+}
+
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .tools-list {
+    display: flex;
+    padding: 05px;
+  }
+}
