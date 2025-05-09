@@ -125,7 +125,7 @@ a {
     height: -webkit-fill-avalible;
     padding-bottom: env(safe-area-inset-bottom, 0);
     padding-top: env(safe-area-inset-top, 0);
-    min-height: 100svh;
+    height: 100svh;
     /* border: solid 3px green; */
   }
   .main-f12 {
@@ -133,10 +133,11 @@ a {
     padding: 50px;
     background: #000000;
     background: rgb(32, 108, 179);
-    height: 100%;
+    /* min-height: 100svh; */
+    /* border: solid 3px green; */
     /* Use min-height instead of fixed height for responsive behavior */
     /* min-height: calc(100vh - 60px);  */
-    height: -webkit-fill-avalible;
+    /* height: -webkit-fill-avalible; */
   }
   .wrapper-f1 {
     box-sizing: border-box;
