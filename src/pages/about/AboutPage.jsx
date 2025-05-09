@@ -40,8 +40,9 @@ const AboutPage = () => {
                 </div>
                 <div>
                   - Inspección e Ingeniería de soldadura. Para control de los
-                  distintos trabajos de soldaduras • Activación de suministros y
-                  supervisión de Obra. • Implementación de sistema de Calidad.
+                  distintos trabajos de soldaduras
+                  <div>- Activación de suministros y supervisión de Obra.</div>
+                  <div>- Implementación de sistema de Calidad.</div>
                 </div>
                 <div>
                   - Experiencia de más de 30 años en Fabricación de acuerdo a
@@ -55,7 +56,7 @@ const AboutPage = () => {
                 construcciones metálicas y equipos industriales: Cuenta para
                 ello, con la experiencia adquirida, garantía de trayectoria y
                 responsabilidad demostrada a lo largo de todos esos años, la
-                misma está formada por Profesionales.
+                misma está formada por pofesionales.
               </div>
             </div>
           </div>

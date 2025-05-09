@@ -363,7 +363,7 @@ const FrameN1 = () => {
             </div>
           </div>
         </div>
-        <FooterMobile />
+        {/* <FooterMobile /> */}
       </div>
 
       {/* FRAME 2*/}
