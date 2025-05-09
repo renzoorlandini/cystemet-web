@@ -25,12 +25,6 @@ a {
   align-items: stretch;
 }
 
-.main-f12 {
-  height: auto;
-  /* Use min-height instead of fixed height for responsive behavior */
-  min-height: calc(100vh - 60px); /* Subtract navbar height */
-}
-
 .wrapper-f1 {
   display: flex;
   width: 100%;
@@ -128,7 +122,8 @@ a {
     min-width: 100px !important;
     max-width: 600px;
     /* border: solid 3px green; */
-    padding-bottom: env(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+    padding-top: env(safe-area-inset-top, 0);
   }
   .main-f12 {
     width: 100vw;
@@ -215,5 +210,13 @@ a {
   }
   .equipment-web {
     display: none;
+  }
+}
+
+/* Fix for iOS Safari notch and dynamic toolbars */
+@supports (-webkit-touch-callout: none) {
+  .main-f12 {
+    /* Use fill-available instead of 100vh on iOS */
+    min-height: -webkit-fill-available;
   }
 }
