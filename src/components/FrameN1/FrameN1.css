@@ -125,7 +125,7 @@ a {
     height: -webkit-fill-avalible;
     padding-bottom: env(safe-area-inset-bottom, 0);
     padding-top: env(safe-area-inset-top, 0);
-    /* min-height: calc(100vh - 60px); */
+    min-height: 100svh;
     /* border: solid 3px green; */
   }
   .main-f12 {
