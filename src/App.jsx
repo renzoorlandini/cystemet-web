@@ -19,6 +19,7 @@ function App() {
   return (
     <>
       <NavbarResponsive />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/accordion" element={<AccordionPage />} />
