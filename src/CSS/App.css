@@ -4,7 +4,7 @@
 @import url("Flex.css");
 
 #root {
-  --vh: 100%;
+  --vh: 1vh;
   --random-color: #000;
   --variable: "hola";
   /* display: flex;
@@ -15,7 +15,7 @@
 }
 
 .full-height {
-  height: calc(var(--vh, 1vh) * 100);
+  height: calc(var(--vh) * 100);
 }
 
 html,
