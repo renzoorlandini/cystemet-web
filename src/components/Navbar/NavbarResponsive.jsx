@@ -49,17 +49,32 @@ const NavbarResponsive = () => {
     }
   };
 
+  const handleHome = () => {
+    navigate("/");
+  };
+
   return (
     <>
       <div className="navbar-wrapper bsbb" id="navbar-wrapper">
         <div className="navbar-phone" style={{ width: "100vw" }}>
-          <div className="cystemetsrl-phone ">CYSTEMET S.R.L.</div>
+          <div
+            onClick={handleHome}
+            className="cystemetsrl-phone "
+            style={{ cursor: "pointer" }}
+          >
+            CYSTEMET S.R.L.
+          </div>
 
           <div
             onClick={showSidebar}
             className="icon-menu-navbar hideBarsIcon flex-r p-15 flex-center"
           >
-            <FaBars />
+            <div
+              className="flex-r flex-center gap-10 border-2-white"
+              style={{ padding: "5px 10px", border: "solid 1px #ffffff6a" }}
+            >
+              menu <FaBars />
+            </div>
           </div>
         </div>
         <div className="navbar bsbb hide-on-mobile">

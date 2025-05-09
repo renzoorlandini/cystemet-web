@@ -11,6 +11,7 @@ import WorksPage from "./pages/works/WorksPage";
 import FloatingButton from "./components/FloatingElements/FloatingButton/FloatingButton";
 import EquipmentPageC from "./pages/equipment-c/EquipmentPageC";
 import AboutPage from "./pages/about/AboutPage";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 // import About from "./pages/about/About";
 
