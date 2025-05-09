@@ -11,7 +11,7 @@ const FooterMobile = () => {
         color: "#fff",
       }}
     >
-      *FOOTER*
+      **FOOTER**
     </div>
   );
 };
