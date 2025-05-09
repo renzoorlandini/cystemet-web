@@ -41,7 +41,10 @@ const FrameN1 = () => {
   return (
     <>
       <div className="container-f1">
-        <div className="flex-r flex-center" style={{ height: "60px" }}>
+        <div
+          className="flex-r flex-center iscellhome"
+          style={{ height: "60px" }}
+        >
           NAVBAR
         </div>
 
