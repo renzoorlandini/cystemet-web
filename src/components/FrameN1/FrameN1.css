@@ -25,6 +25,12 @@ a {
   align-items: stretch;
 }
 
+.main-f12 {
+  height: auto;
+  /* Use min-height instead of fixed height for responsive behavior */
+  min-height: calc(100vh - 60px); /* Subtract navbar height */
+}
+
 .wrapper-f1 {
   display: flex;
   width: 100%;
@@ -118,17 +124,20 @@ a {
     background-color: lightblue;
     width: 100%;
     /* height: 100%; */
-    height: calc((var(--vh) * 100) - 60px);
-
+    height: calc(100vh - 60px);
     min-width: 100px !important;
     max-width: 600px;
     /* border: solid 3px green; */
+    padding-bottom: env(safe-area-inset-bottom);
   }
   .main-f12 {
     width: 100vw;
     padding: 50px;
     background: #000000;
     background: rgb(32, 108, 179);
+    height: auto;
+    /* Use min-height instead of fixed height for responsive behavior */
+    min-height: calc(100vh - 60px); /* Subtract navbar height */
   }
   .wrapper-f1 {
     box-sizing: border-box;
