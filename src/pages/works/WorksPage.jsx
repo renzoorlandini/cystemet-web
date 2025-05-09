@@ -126,12 +126,12 @@ const WorksPage = () => {
               }}
             >
               <div className="flex-c flex-start bsbb ">
-                <div
-                  className="flex-r backwork flex-center border-1-blue"
+                {/* <div
+                  className="flex-r backwork flex-center border-3-yellow"
                   style={{ height: "60px" }}
                 >
                   NAVBAR
-                </div>
+                </div> */}
                 <div
                   className="flex-r backwork flex-center flexr-hcenter gap-5 font-inter600-12 "
                   style={{
