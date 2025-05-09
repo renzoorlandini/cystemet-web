@@ -16,12 +16,12 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 // import About from "./pages/about/About";
 
 function App() {
-  function setVh() {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty("--vh", `${vh}px`);
-  }
-  setVh();
-  window.addEventListener("resize", setVh);
+  const setHeight = function () {
+    const currentHeight = window.innerHeight;
+    document.body.style.height = `${currentHeight}px`;
+  };
+  window.addEventListener("resize", setHeight);
+  setHeight();
 
   return (
     <>
