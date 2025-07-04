@@ -27,7 +27,9 @@ const AboutPage = () => {
               </div>
 
               <div>
-                <h4 style={{ border: "3px solid #807272", padding: "30px" }}>
+                <h4
+                  style={{ borderBottom: "3px solid #807272", padding: "30px" }}
+                >
                   Nos dirigimos a usted con el agrado de comunicarle que, tras
                   un exhaustivo análisis de las necesidades del mercado y de
                   nuestros clientes en el sector Metalmecánico, hemos conformado
@@ -35,11 +37,12 @@ const AboutPage = () => {
                   integrado por profesionales con amplia trayectoria, muchos de
                   ellos ex integrantes de la reconocida empresa Rode S.R.L.
                 </h4>
-                <div style={{ border: "3px solid #807272", padding: "30px" }}>
+                <div
+                  style={{ borderBottom: "3px solid #807272", padding: "30px" }}
+                >
                   Además de nuestra experiencia en la fabricación de
                   estructuras, tanques y repuestos industriales bajo plano,
                   contamos con capacidad para ofrecer los siguientes servicios:
-                  <br />
                   <br />
                   - Desarrollo de ingeniería de proyecto, básica y de detalle,
                   así como fabricación de: Recipientes a presión / Cañerías /
@@ -52,8 +55,13 @@ const AboutPage = () => {
                   normas y códigos internacionales como ASME, API, TEMA, AWS
                   D1.1, entre otros.
                 </div>
-                <br />
-                <div style={{ border: "3px solid #807272", padding: "30px" }}>
+
+                <div
+                  style={{
+                    borderBottom: "3px solid #8072720",
+                    padding: "30px",
+                  }}
+                >
                   Contamos con una planta industrial ubicada en un predio de una
                   hectárea con doble acceso, en el cual se levanta un galpón
                   cubierto de 2.500 m². Las instalaciones incluyen baños para el
