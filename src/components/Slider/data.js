@@ -5,15 +5,11 @@ const data = [
   },
   {
     id: 2,
-    url: "./images/Portada/12.jpg",
+    url: "./images/Portada/33.jpg",
   },
 
   {
     id: 3,
-    url: "./images/Portada/33.jpg",
-  },
-  {
-    id: 4,
     url: "./images/Portada/22.jpg",
   },
 ];

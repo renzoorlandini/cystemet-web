@@ -88,7 +88,21 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                  EQUIPOS DE BOMBEO (Eléctricos, neumáticos, skid, varios)
+                  5 EQUIPOS DE BOMBEO (Eléctricos, neumáticos, skid, varios)
+                </div>
+                <div
+                  id="equiposdebombeo"
+                  name="equiposdebombeo"
+                  onClick={() =>
+                    handleSelection("equiposdebombeo", "equiposdebombeo")
+                  }
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  2 ESTRUCTURAS MEDIANAS Y LIVIANAS
                 </div>
                 <div
                   id="tanques"
@@ -100,7 +114,19 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                  TANQUES Y DEPÓSITOS (Con y sin bateas)
+                  3 TANQUES Y DEPÓSITOS (Con y sin bateas)
+                </div>
+                <div
+                  id="tanques"
+                  name="tanques"
+                  onClick={() => handleSelection("tanques", "tanques")}
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  8 MAQUINAS Y EQUIPOS VARIOS (Transporte, Movimientos, etc.)
                 </div>
                 <div
                   id="estructuraspesadas"
@@ -114,7 +140,7 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                  ESTRUCTURAS PESADAS (Edificios industriales, varios)
+                  1 ESTRUCTURAS PESADAS (Edificios industriales, varios)
                 </div>
                 <div
                   id="cabinas"
@@ -126,7 +152,7 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                  CABINAS
+                  7 CABINAS
                 </div>
                 <div
                   id="ductosdechaparoladaytolvas"
@@ -143,7 +169,7 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                  DUCTOS DE CHAPA ROLADA Y TOLVAS (Chutes)
+                  4 DUCTOS DE CHAPA Y TOLVAS (Chutes)
                 </div>
                 <div
                   id="piping"
@@ -155,10 +181,8 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                    PIPING (Prefabricados)
+                  6 PIPING (Prefabricados)
                 </div>
-
-          
               </div>
             </div>
             {/* <div
