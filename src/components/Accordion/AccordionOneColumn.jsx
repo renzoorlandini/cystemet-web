@@ -94,15 +94,21 @@ function AccordionOneColumn({ items }) {
         </div>
 
         <div
-          className="flex-r flex-w100 font-inter500-20 flexr-hcenter border-3-yellow hide-on-phone"
+          className="flex-r flex-w100 font-inter500-20 flexr-hcenter  hide-on-phone"
           style={{
+            borderBottom: "solid 2px rgb(108, 173, 233)",
             border: "solid 2px rgb(108, 173, 233)",
+
             padding: "20px",
             background: "rgba(108, 173, 233, 0)",
             color: "#fff",
           }}
         >
-          <div style={{ width: "50%" }}>Clientes / Trabajos realizados.</div>
+          <div
+            style={{ width: "50%", border: "solid 2px white", padding: "15px" }}
+          >
+            Clientes / Trabajos realizados.
+          </div>
           <div
             className="flex-r flexr-hcenter flex-end gap-15"
             style={{ width: "50%" }}
