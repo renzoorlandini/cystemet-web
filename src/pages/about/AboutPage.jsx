@@ -91,6 +91,7 @@ const AboutPage = () => {
                   <br />
                   Quedamos a disposición para ampliar cualquier información o
                   coordinar una reunión.
+                  <br />
                 </div>
               </div>
             </div>
