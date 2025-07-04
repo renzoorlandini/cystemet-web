@@ -37,15 +37,13 @@ const Footer = () => {
           }}
         >
           <div>
-            Fábrica, Admin. y Dir. Fiscal : Olegario Victor Andrade 255 - 2000
-            Rosario (Sta. Fe).
+            Fábrica, Admin. y Dir. Fiscal : 
+            <div>Ruta Provinvial N°18, Km. 6.1 - 2119
+            Piñero (Sta. Fe).</div>
           </div>
           <div>E-Mail : cystemetsrl@outlook.com.ar / rodectm@outlook.com</div>
 
-          <div>Teléfonos: </div>
-          <div>Rita B. Fenoglio : 0341 (15)5445524</div>
-          <div></div>
-          <div>Daniel Esteban Roberto : 0341 (15)3444428</div>
+          <div>Teléfono : 0341 3175894</div>
         </div>
       </div>
     </div>

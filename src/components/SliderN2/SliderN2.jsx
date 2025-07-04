@@ -10,11 +10,12 @@ import { FaArrowLeft } from "react-icons/fa6";
 import "./SliderN2.css";
 
 import tanques from "./tanques.js";
+import equiposdebombeo from "./equiposdebombeo.js";
 
 const Slider = () => {
   const elements = tanques;
 
-  // const [productType, setProductType] = useState("tanques");
+  const [productType, setProductType] = useState("tanques");
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
   const intervalRef = useRef(null);

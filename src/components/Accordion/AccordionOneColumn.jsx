@@ -98,7 +98,7 @@ function AccordionOneColumn({ items }) {
           style={{
             border: "solid 2px rgb(108, 173, 233)",
             padding: "20px",
-            background: "rgb(108, 173, 233)",
+            background: "rgba(108, 173, 233, 0)",
             color: "#fff",
           }}
         >

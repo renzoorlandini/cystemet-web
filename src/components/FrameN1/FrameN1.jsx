@@ -287,7 +287,7 @@ const FrameN1 = () => {
               style={{ minHeight: "400px", background: "#302a2a" }}
             >
               <Slider />
-              <div
+              {/* <div
                 className="flex-r flex-w100 flex-h100 "
                 style={{
                   color: "#fff",
@@ -359,7 +359,7 @@ const FrameN1 = () => {
                     <RiMailLine className="flex-r" />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

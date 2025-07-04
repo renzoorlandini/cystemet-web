@@ -18,7 +18,7 @@ const Slider = () => {
   const startAutoPlay = () => {
     intervalRef.current = setInterval(() => {
       setCurrentSlide((prev) => (prev === elements.length - 1 ? 0 : prev + 1));
-    }, 4000);
+    }, 5000);
   };
 
   // Handle play/stop toggle
@@ -115,8 +115,25 @@ const Slider = () => {
         </div>
 
         <span className="dot-navigator flex-r  flex-w100 ">
-          <div className="flex-c" style={{ width: "20%" }}></div>
-          <div className="flex-r flex-center" style={{ width: "60%" }}>
+          <div
+            className="flex-c "
+            style={{
+              width: "10%",
+              justifyContent: "flex-end",
+              alignItems: "flex-start",
+              paddingLeft: "3%",
+            }}
+          >
+            <button className="btn-s1 " onClick={togglePlayState}>
+              {isPlaying ? (
+                <BsPauseCircleFill size={24} />
+              ) : (
+                <BsPlayCircleFill size={24} />
+              )}
+            </button>
+          </div>
+          <div className="flex-c " style={{ width: "20%" }}></div>
+          <div className="flex-r flex-center" style={{ width: "37%" }}>
             {elements && elements.length
               ? elements.map((_, index) => (
                   <div key={index}>
@@ -132,8 +149,8 @@ const Slider = () => {
                 ))
               : null}
           </div>
-          <div
-            className="flex-c "
+          {/* <div
+            className="flex-c border-3-yellow"
             style={{
               width: "20%",
               justifyContent: "flex-end",
@@ -148,7 +165,7 @@ const Slider = () => {
                 <BsPlayCircleFill size={24} />
               )}
             </button>
-          </div>
+          </div> */}
         </span>
       </div>
     </div>

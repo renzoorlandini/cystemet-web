@@ -94,7 +94,7 @@ const ContactForm = () => {
             </div>
             <br />
             <div>Fabrica, Admin. y Dir. Fiscal:</div>
-            <div>Olegario Victor Andrade 255 - 2000 Rosario (Sta. Fe)</div>
+            <div>Ruta Provinvial N°18, Km. 6.1 - 2119 Piñero (Sta. Fe)</div>
             <br />
             <div>
               <NavLink to={"/maps"} element={<OpenStreetMapsPage />}>
@@ -111,9 +111,7 @@ const ContactForm = () => {
               </NavLink>
             </div>
             <br />
-            <div>Teléfono: </div>
-            <div>Rita B. Fenoglio : 0341(15)5445524</div>
-            <div>Daniel Esteban Roberto : 0341 (15)3444428</div>
+            <div>Teléfono : 0341 3175894</div>
             <br />
             <div>E-Mail: </div>
             <div>cystemetsrl@outlook.com.ar / </div>

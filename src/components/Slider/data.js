@@ -1,24 +1,20 @@
 const data = [
   {
     id: 1,
-    url: "./images/Tanque/13.jpg",
+    url: "./images/Portada/11.jpg",
   },
   {
     id: 2,
-    url: "./images/Tanque/tanque2.jpeg",
+    url: "./images/Portada/12.jpg",
   },
 
   {
     id: 3,
-    url: "./images/Jaulas/Jaula1.jpeg",
+    url: "./images/Portada/33.jpg",
   },
   {
     id: 4,
-    url: "./images/Jaulas/Jaula2.jpeg",
-  },
-  {
-    id: 5,
-    url: "./images/Jaulas/Jaula3.jpeg",
+    url: "./images/Portada/22.jpg",
   },
 ];
 

@@ -24,6 +24,7 @@ a {
   flex: 1;
   display: flex;
   align-items: stretch;
+  /* border: solid 2px green; */
 }
 
 .wrapper-f1 {

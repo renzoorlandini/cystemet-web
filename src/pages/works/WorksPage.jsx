@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./WorksPage.css";
 import tanques from "./tanques.js";
 import jaulas from "./jaulas.js";
+import equiposdebombeo from "./equiposdebombeo.js";
 import WorkGrid from "../../components/WorkGrid/WorkGrid.jsx";
 import { IoMdArrowRoundBack } from "react-icons/io";
 
@@ -38,9 +39,9 @@ const WorksPage = () => {
       setSelectedCategory(name);
       setWorkData(jaulas);
       console.log(name);
-    } else if (id === "escaleras") {
-      // setSelectedCategory("escaleras");
-      setWorkData([]); // Replace with escaleras data when available
+    } else if (id === "equiposdebombeo") {
+      setWorkData(equiposdebombeo); // Replace with escaleras data when available
+      setSelectedCategory(name);
     }
     if (isPhoneSize) {
       document.getElementById("workgrid").style.display = "flex";
@@ -76,6 +77,20 @@ const WorksPage = () => {
             >
               <div className="flex-c">
                 <div
+                  id="equiposdebombeo"
+                  name="equiposdebombeo"
+                  onClick={() =>
+                    handleSelection("equiposdebombeo", "equiposdebombeo")
+                  }
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  EQUIPOS DE BOMBEO (Eléctricos, neumáticos, skid, varios)
+                </div>
+                <div
                   id="tanques"
                   name="tanques"
                   onClick={() => handleSelection("tanques", "tanques")}
@@ -85,50 +100,65 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                  TANQUES
+                  TANQUES Y DEPÓSITOS (Con y sin bateas)
                 </div>
                 <div
-                  id="jaulas"
-                  onClick={() => handleSelection("jaulas", "jaulas")}
+                  id="estructuraspesadas"
+                  name="estructuraspesadas"
+                  onClick={() =>
+                    handleSelection("estructuraspesadas", "estructuraspesadas")
+                  }
                   style={{
                     padding: "15px 0px",
                     borderBottom: "solid 2px #fff",
                     cursor: "pointer",
                   }}
                 >
-                  JAULAS
+                  ESTRUCTURAS PESADAS (Edificios industriales, varios)
                 </div>
                 <div
-                  id="estructurasPesadas"
-                  onClick={() => handleSelection("jaulas", "jaulas")}
+                  id="cabinas"
+                  name="cabinas"
+                  onClick={() => handleSelection("cabinas", "cabinas")}
                   style={{
                     padding: "15px 0px",
                     borderBottom: "solid 2px #fff",
                     cursor: "pointer",
                   }}
                 >
-                  ESTRUCTURAS PESADAS
+                  CABINAS
                 </div>
                 <div
-                  id="tuberias"
-                  onClick={() => handleSelection("jaulas", "jaulas")}
+                  id="ductosdechaparoladaytolvas"
+                  name="ductosdechaparoladaytolvas"
+                  onClick={() =>
+                    handleSelection(
+                      "ductosdechaparoladaytolvas",
+                      "ductosdechaparoladaytolvas"
+                    )
+                  }
                   style={{
                     padding: "15px 0px",
                     borderBottom: "solid 2px #fff",
                     cursor: "pointer",
                   }}
                 >
-                  TUBERÍAS
+                  DUCTOS DE CHAPA ROLADA Y TOLVAS (Chutes)
+                </div>
+                <div
+                  id="piping"
+                  name="piping"
+                  onClick={() => handleSelection("piping", "piping")}
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                    PIPING (Prefabricados)
                 </div>
 
-                <div
-                  style={{
-                    padding: "15px 0px",
-                    borderBottom: "solid 2px #fff",
-                  }}
-                >
-                  ESCALERAS
-                </div>
+          
               </div>
             </div>
             {/* <div
