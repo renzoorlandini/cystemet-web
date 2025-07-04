@@ -28,7 +28,10 @@ const AboutPage = () => {
 
               <div>
                 <h4
-                  style={{ borderBottom: "3px solid #807272", padding: "30px" }}
+                  style={{
+                    borderBottom: "3px solid #807272",
+                    paddingBottom: "30px",
+                  }}
                 >
                   Nos dirigimos a usted con el agrado de comunicarle que, tras
                   un exhaustivo análisis de las necesidades del mercado y de
@@ -38,7 +41,11 @@ const AboutPage = () => {
                   ellos ex integrantes de la reconocida empresa Rode S.R.L.
                 </h4>
                 <div
-                  style={{ borderBottom: "3px solid #807272", padding: "30px" }}
+                  style={{
+                    borderBottom: "3px solid #807272",
+                    paddingBottom: "30px",
+                    paddingTop: "15px",
+                  }}
                 >
                   Además de nuestra experiencia en la fabricación de
                   estructuras, tanques y repuestos industriales bajo plano,
@@ -59,7 +66,8 @@ const AboutPage = () => {
                 <div
                   style={{
                     borderBottom: "3px solid #8072720",
-                    padding: "30px",
+                    paddingBottom: "30px",
+                    paddingTop: "30px",
                   }}
                 >
                   Contamos con una planta industrial ubicada en un predio de una
@@ -91,7 +99,6 @@ const AboutPage = () => {
                   <br />
                   Quedamos a disposición para ampliar cualquier información o
                   coordinar una reunión.
-                  <br />
                 </div>
               </div>
             </div>
