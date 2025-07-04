@@ -1,9 +1,9 @@
 .about-wrapper {
-  width: 100%;
-  padding: 50px;
+  width: 80%;
+  /* padding: 30px; */
 }
 .about {
-  padding: 30px;
+  padding: 60px;
   width: 100%;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;

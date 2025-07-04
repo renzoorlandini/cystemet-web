@@ -133,6 +133,7 @@ function AccordionOneColumn({ items }) {
             </button>
           </div>
         </div>
+        <br />
 
         <div className="accordion-wrapper flex-h100">
           <SingleColumnAccordion
