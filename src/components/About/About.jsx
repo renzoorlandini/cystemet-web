@@ -6,14 +6,14 @@ const About = () => {
       <div style={{ height: "60px" }}></div>
 
       <div
-        className="flex-c flex-w100  bsbb  p-30 flex-center"
+        className="flex-c flex-w100  bsbb  p-30 flex-center border-3-blue"
         style={{
           minHeight: "calc( 100vh - 60px )",
           background: "rgb(36, 34, 34)",
           color: "white",
         }}
       >
-        <div style={{ width: "50%" }}>
+        <div className="border-3-green" style={{ width: "50%" }}>
           <div>
             <h3>Atte.: Gerente de Compra o a quien corresponda:</h3>
           </div>

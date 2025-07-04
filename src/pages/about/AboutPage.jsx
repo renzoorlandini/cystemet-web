@@ -3,60 +3,80 @@ import "./AboutPage.css";
 const AboutPage = () => {
   return (
     <>
+      <div className="flex-r" style={{ height: "60px" }}></div>
       <div
-        className="flex-c w100"
+        className="flex-c w100  flex-center"
         style={{
-          minHeight: "100vh",
+          minHeight: "calc(100vh - 60px)",
           color: "#fff",
           background: "#161414",
           // minWidth: "1200px",
+          // padding: "10px",
+          // border: "3px solid #1f1d1d",
         }}
       >
-        <div className="flex-r" style={{ height: "60px" }}></div>
-        <div className="flex-r flex-center">
-          <div className="flex-r  about-wrapper flex-center">
+        <div className="flex-r flex-center ">
+          <div
+            className="flex-r  about-wrapper flex-center border-1-white"
+            style={{ border: "3px solid #807272" }}
+          >
             <div className=" flex-c about flexc-hcenter ">
-              <div className="about-title">
-                Gerente de Compra o a quien corresponda:
-              </div>
+              <div className="about-title">A quien corresponda,</div>
               <br />
               <div>
-                Es de nuestro agrado, comunicarles que luego de un análisis
-                profundo de las necesidades de nuestros clientes y de la
-                observación de las oportunidades de los mercados en las áreas de
-                Metalmecánica, es que, en un esfuerzo hemos conformado un grupo
-                de trabajo, con personal con Una Amplia Experiencia en el Rubro,
-                Ex Pertenecientes a la Afamada y de Amplia Trayectoria Empresa
-                Rode S.R.L., para poder aportar además de nuestra Fabricacíon de
-                Estructuras, Tanques y Repuestos Industriales, Bajo Plano:
-              </div>
-              <br />
-              <div>
-                <div>
-                  - Desarrollo de ingeniería de proyecto, básica y fabricación
-                  para equipos y estructuras de: Recipientes a Presión,
-                  Cañerías, Tanques de Almacenamientos, Equipos de Transporte a
-                  Granel , Tolvas, Estructuras Metálicas en general.
-                </div>
-                <div>
-                  - Inspección e Ingeniería de soldadura. Para control de los
-                  distintos trabajos de soldaduras
-                  <div>- Activación de suministros y supervisión de Obra.</div>
-                  <div>- Implementación de sistema de Calidad.</div>
-                </div>
-                <div>
-                  - Experiencia de más de 30 años en Fabricación de acuerdo a
-                  CÓDIGO ASME, API, TEMA, AWS D.1.1, etc.
-                </div>
-              </div>
-              <br />
-              <div>
-                Por la otra parte, también queremos mencionarle que la empresa
-                esta dedicada al servicio de las grandes empresas en el rubro de
-                construcciones metálicas y equipos industriales: Cuenta para
-                ello, con la experiencia adquirida, garantía de trayectoria y
-                responsabilidad demostrada a lo largo de todos esos años, la
-                misma está formada por pofesionales.
+                Nos dirigimos a usted con el agrado de comunicarle que, tras un
+                exhaustivo análisis de las necesidades del mercado y de nuestros
+                clientes en el sector Metalmecánico, hemos conformado un equipo
+                de trabajo altamente capacitado. Este equipo está integrado por
+                profesionales con amplia trayectoria, muchos de ellos ex
+                integrantes de la reconocida empresa Rode S.R.L.
+                <br />
+                <br />
+                Además de nuestra experiencia en la fabricación de estructuras,
+                tanques y repuestos industriales bajo plano, contamos con
+                capacidad para ofrecer los siguientes servicios:
+                <br />
+                <br />
+                - Desarrollo de ingeniería de proyecto, básica y de detalle, así
+                como fabricación de: -Recipientes a presión. - Cañerías. -
+                Tanques de almacenamiento. - Equipos para transporte a granel. -
+                Tolvas. - Estructuras metálicas en general. - Inspección e
+                ingeniería de soldadura para el control de calidad de los
+                trabajos. - Activación de suministros y supervisión de obra. -
+                Implementación de sistemasde calidad. - Más de 30 años de
+                experiencia en fabricación bajo normas y códigos internacionales
+                como ASME, API, TEMA, AWS D1.1, entre otros.
+                <br />
+                <br />
+                Contamos con una planta industrial ubicada en un predio de una
+                hectárea con doble acceso, en el cual se levanta un galpón
+                cubierto de 2.500 m². Las instalaciones incluyen baños para el
+                personal, oficinas distribuidas en dos plantas para los sectores
+                de producción, calidad, almacenes y mantenimiento. Además,
+                disponemos de 300 m² de oficinas destinadas a recepción,
+                gerencias, administración, oficina técnica, presupuestos,
+                compras y una sala de reuniones, entre otros espacios
+                funcionales.
+                <br />
+                <br />
+                Por otra parte, queremos destacar que nuestra empresa está
+                enfocada en brindar servicios a grandes compañías del sector de
+                construcciones metálicas y equipos industriales. Esto lo hacemos
+                con el respaldo de una sólida trayectoria, responsabilidad
+                comprobada y un equipo conformado por profesionales altamente
+                capacitados. En los últimos años, hemos participado activamente
+                como proveedores estratégicos para diversos proyectos de gran
+                envergadura.
+                <br />
+                <br />
+                Nuestra empresa está dedicada a brindar soluciones integrales a
+                grandes compañías del rubro de construcciones metálicas y
+                equipos industriales, ofreciendo un servicio respaldado por una
+                sólida trayectoria, compromiso y profesionalismo.
+                <br />
+                <br />
+                Quedamos a disposición para ampliar cualquier información o
+                coordinar una reunión.
               </div>
             </div>
           </div>
