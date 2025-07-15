@@ -81,7 +81,7 @@ const FrameN1 = () => {
                   // style={{ padding: "10px 15px" }}
                 >
                   <div className="f1-cell flex-start">
-                    <Link to="https://wa.me/+5493413444428">
+                    <Link to="https://wa.me/+5493413175894">
                       <IoLogoWhatsapp
                         className="flex-r flex-center"
                         style={{

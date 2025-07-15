@@ -86,7 +86,7 @@ const ContactForm = () => {
         >
           <div className="flex-c  flex-center" style={{ textAlign: "center" }}>
             <div className="f1-cell flex-center">
-              <Link to="https://wa.me/+5493413444428">
+              <Link to="https://wa.me/++5493413175894">
                 <IoLogoWhatsapp
                   style={{ fontSize: "40px", width: "40px", height: "40px" }}
                 />
