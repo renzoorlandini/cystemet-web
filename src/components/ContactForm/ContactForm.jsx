@@ -114,8 +114,9 @@ const ContactForm = () => {
             <div>Teléfono : 0341 3175894</div>
             <br />
             <div>E-Mail: </div>
-            <div>cystemetsrl@outlook.com.ar / </div>
-            <div>rodectm@outlook.com</div>
+            <div>ventas@cystemetsrl.com</div>
+            {/* <div>cystemetsrl@outlook.com.ar / </div>
+            <div>rodectm@outlook.com</div> */}
           </div>
         </div>
         <div className="h30"></div>

@@ -1,3 +1,26 @@
-const equiposdebombeo = [{"id":1,"url":"./images/EquiposDeBombeo/1_1.1.1.jpg"},{"id":2,"url":"./images/EquiposDeBombeo/IMG_20230713_140446728_HDR.jpg"},{"id":3,"url":"./images/EquiposDeBombeo/IMG_20230804_124049547_HDR.jpg"}];
+const equiposdebombeo = [
+  { id: 1, url: "./images/EquiposDeBombeo/1.jpg" },
+  { id: 2, url: "./images/EquiposDeBombeo/2.jpg" },
+  { id: 3, url: "./images/EquiposDeBombeo/3.jpg" },
+  { id: 4, url: "./images/EquiposDeBombeo/4.jpg" },
+  { id: 5, url: "./images/EquiposDeBombeo/5.jpg" },
+  { id: 6, url: "./images/EquiposDeBombeo/6.jpg" },
+  { id: 7, url: "./images/EquiposDeBombeo/7.jpg" },
+  { id: 8, url: "./images/EquiposDeBombeo/8.jpg" },
+  { id: 9, url: "./images/EquiposDeBombeo/9.jpg" },
+  { id: 10, url: "./images/EquiposDeBombeo/10.jpeg" },
+  { id: 11, url: "./images/EquiposDeBombeo/11.jpg" },
+  { id: 12, url: "./images/EquiposDeBombeo/12.jpg" },
+  { id: 13, url: "./images/EquiposDeBombeo/13.jpeg" },
+  { id: 14, url: "./images/EquiposDeBombeo/14.jpeg" },
+  { id: 15, url: "./images/EquiposDeBombeo/15.jpeg" },
+  { id: 16, url: "./images/EquiposDeBombeo/16.jpeg" },
+  { id: 17, url: "./images/EquiposDeBombeo/17.jpeg" },
+  { id: 18, url: "./images/EquiposDeBombeo/18.jpeg" },
+  { id: 19, url: "./images/EquiposDeBombeo/19.jpeg" },
+  { id: 20, url: "./images/EquiposDeBombeo/20.jpeg" },
+  { id: 21, url: "./images/EquiposDeBombeo/21.jpeg" },
+  { id: 22, url: "./images/EquiposDeBombeo/22.jpeg" },
+];
 
 export default equiposdebombeo;

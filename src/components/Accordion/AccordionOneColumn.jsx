@@ -14,11 +14,13 @@ function SingleColumnAccordion({ columnItems, openIndices, toggleAccordion }) {
             <div className="header-content">
               <div className="title">{item.title}</div>
               <div className="icon-container">
-                <RiArrowDownSLine
-                  className={`accordion-icon ${
-                    openIndices[index] ? "open" : ""
-                  }`}
-                />
+                {item.content.length != 0 && (
+                  <RiArrowDownSLine
+                    className={`accordion-icon ${
+                      openIndices[index] ? "open" : ""
+                    }`}
+                  />
+                )}
               </div>
             </div>
           </button>
@@ -105,7 +107,13 @@ function AccordionOneColumn({ items }) {
           }}
         >
           <div
-            style={{ width: "50%", border: "solid 2px white", padding: "15px" }}
+            style={{
+              width: "50%",
+              borderBottom: "solid 2px white",
+              borderTop: "solid 2px white",
+
+              padding: "15px",
+            }}
           >
             Clientes / Trabajos realizados.
           </div>

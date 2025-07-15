@@ -102,10 +102,12 @@ const accordionData = () => {
     },
 
     {
-      title: "TENARIS ARGENTINA S.A. (SIDERCA)",
+      title: "TENARIS ARGENTINA S.A.",
       content: [
+        "SIDERCA S.A.I. y C.: ",
         "Fabricacion de Bastidor Movil Revatible en Linea de Procesos.",
         "Fabricacion de Placas de Agua con Serpentinas de Circulacion de Agua de Enfriamiento (Material Totalmente en Ac. Inox. AISI 304)",
+        "SIAT S.A.: ",
       ],
     },
 
@@ -133,6 +135,22 @@ const accordionData = () => {
         "Reparacion y Automatismo de Cinta Transportadora.",
         "REV.",
       ],
+    },
+    {
+      title: "ALUAR ALUMINIO ARGENTINO S.A.I.C.",
+      content: [],
+    },
+    {
+      title: "FATE S.A.I.C.I.",
+      content: [],
+    },
+    {
+      title: "INDUSTRIAS PIÑERO S.R.L.",
+      content: [],
+    },
+    {
+      title: "IPA S.A.",
+      content: [],
     },
   ];
 

@@ -1,14 +1,19 @@
 import { useEffect, useState } from "react";
 import "./WorksPage.css";
-import tanques from "./tanques.js";
-import jaulas from "./jaulas.js";
+import { IoMdArrowRoundBack } from "react-icons/io";
 import equiposdebombeo from "./equiposdebombeo.js";
 import WorkGrid from "../../components/WorkGrid/WorkGrid.jsx";
-import { IoMdArrowRoundBack } from "react-icons/io";
+import estructuraspesadas from "./estructuraspesadas.js";
+import estructurasmediasylivianas from "./estructurasmedianasylivianas.js";
+import ductosdechapaytolvas from "./ductosdechapaytolvas";
+import cabinas from "./cabinas.js";
+import maquinasyequipos from "./maquinasyequipos.js";
+import piping from "./piping.js";
+import tanquesydepositos from "./tanquesydepositos.js";
 
 const WorksPage = () => {
-  const tanque = tanques;
-  const [workData, setWorkData] = useState(tanque);
+  const def = estructuraspesadas;
+  const [workData, setWorkData] = useState(def);
   const [selectedCategory, setSelectedCategory] = useState("");
   const [isPhoneSize, setIsPhoneSize] = useState(window.innerWidth < 768);
 
@@ -31,16 +36,35 @@ const WorksPage = () => {
   }, [isPhoneSize]);
 
   const handleSelection = (id, name) => {
-    if (id === "tanques") {
-      setWorkData(tanques);
+    if (id === "estructuraspesadas") {
+      setWorkData(estructuraspesadas);
       setSelectedCategory(name);
       console.log(name);
-    } else if (id === "jaulas") {
+    } else if (id === "estructurasmedianasylivianas") {
+      setWorkData(estructurasmediasylivianas);
       setSelectedCategory(name);
-      setWorkData(jaulas);
+      console.log(name);
+    } else if (id === "tanquesydepositos") {
+      setWorkData(tanquesydepositos);
+      setSelectedCategory(name);
+      console.log(name);
+    } else if (id === "ductosdechapaytolvas") {
+      setWorkData(ductosdechapaytolvas);
+      setSelectedCategory(name);
       console.log(name);
     } else if (id === "equiposdebombeo") {
-      setWorkData(equiposdebombeo); // Replace with escaleras data when available
+      setSelectedCategory(name);
+      setWorkData(equiposdebombeo);
+      console.log(name);
+    } else if (id === "piping") {
+      setSelectedCategory(name);
+      setWorkData(piping);
+      console.log(name);
+    } else if (id === "cabinas") {
+      setWorkData(cabinas); // Replace with escaleras data when available
+      setSelectedCategory(name);
+    } else if (id === "maquinasyequipos") {
+      setWorkData(maquinasyequipos); // Replace with escaleras data when available
       setSelectedCategory(name);
     }
     if (isPhoneSize) {
@@ -77,58 +101,6 @@ const WorksPage = () => {
             >
               <div className="flex-c">
                 <div
-                  id="equiposdebombeo"
-                  name="equiposdebombeo"
-                  onClick={() =>
-                    handleSelection("equiposdebombeo", "equiposdebombeo")
-                  }
-                  style={{
-                    padding: "15px 0px",
-                    borderBottom: "solid 2px #fff",
-                    cursor: "pointer",
-                  }}
-                >
-                  5 EQUIPOS DE BOMBEO (Eléctricos, neumáticos, skid, varios)
-                </div>
-                <div
-                  id="equiposdebombeo"
-                  name="equiposdebombeo"
-                  onClick={() =>
-                    handleSelection("equiposdebombeo", "equiposdebombeo")
-                  }
-                  style={{
-                    padding: "15px 0px",
-                    borderBottom: "solid 2px #fff",
-                    cursor: "pointer",
-                  }}
-                >
-                  2 ESTRUCTURAS MEDIANAS Y LIVIANAS
-                </div>
-                <div
-                  id="tanques"
-                  name="tanques"
-                  onClick={() => handleSelection("tanques", "tanques")}
-                  style={{
-                    padding: "15px 0px",
-                    borderBottom: "solid 2px #fff",
-                    cursor: "pointer",
-                  }}
-                >
-                  3 TANQUES Y DEPÓSITOS (Con y sin bateas)
-                </div>
-                <div
-                  id="tanques"
-                  name="tanques"
-                  onClick={() => handleSelection("tanques", "tanques")}
-                  style={{
-                    padding: "15px 0px",
-                    borderBottom: "solid 2px #fff",
-                    cursor: "pointer",
-                  }}
-                >
-                  8 MAQUINAS Y EQUIPOS VARIOS (Transporte, Movimientos, etc.)
-                </div>
-                <div
                   id="estructuraspesadas"
                   name="estructuraspesadas"
                   onClick={() =>
@@ -140,27 +112,15 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                  1 ESTRUCTURAS PESADAS (Edificios industriales, varios)
+                  ESTRUCTURAS PESADAS (Edificios industriales, varios)
                 </div>
                 <div
-                  id="cabinas"
-                  name="cabinas"
-                  onClick={() => handleSelection("cabinas", "cabinas")}
-                  style={{
-                    padding: "15px 0px",
-                    borderBottom: "solid 2px #fff",
-                    cursor: "pointer",
-                  }}
-                >
-                  7 CABINAS
-                </div>
-                <div
-                  id="ductosdechaparoladaytolvas"
-                  name="ductosdechaparoladaytolvas"
+                  id="estructurasmedianasylivianas"
+                  name="estructurasmedianasylivianas"
                   onClick={() =>
                     handleSelection(
-                      "ductosdechaparoladaytolvas",
-                      "ductosdechaparoladaytolvas"
+                      "estructurasmedianasylivianas",
+                      "estructurasmedianasylivianas"
                     )
                   }
                   style={{
@@ -169,7 +129,52 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                  4 DUCTOS DE CHAPA Y TOLVAS (Chutes)
+                  ESTRUCTURAS MEDIANAS Y LIVIANAS
+                </div>
+                <div
+                  id="tanquesydepositos"
+                  name="tanquesydepositos"
+                  onClick={() =>
+                    handleSelection("tanquesydepositos", "tanquesydepositos")
+                  }
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  TANQUES Y DEPÓSITOS (Con y sin bateas)
+                </div>
+                <div
+                  id="ductosdechapaytolvas"
+                  name="ductosdechapaytolvas"
+                  onClick={() =>
+                    handleSelection(
+                      "ductosdechapaytolvas",
+                      "ductosdechapaytolvas"
+                    )
+                  }
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  DUCTOS DE CHAPA Y TOLVAS (Chutes)
+                </div>
+                <div
+                  id="equiposdebombeo"
+                  name="equiposdebombeo"
+                  onClick={() =>
+                    handleSelection("equiposdebombeo", "equiposdebombeo")
+                  }
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  EQUIPOS DE BOMBEO (Eléctricos, neumáticos, skid, varios)
                 </div>
                 <div
                   id="piping"
@@ -181,7 +186,33 @@ const WorksPage = () => {
                     cursor: "pointer",
                   }}
                 >
-                  6 PIPING (Prefabricados)
+                  PIPING (Prefabricados)
+                </div>
+                <div
+                  id="cabinas"
+                  name="cabinas"
+                  onClick={() => handleSelection("cabinas", "cabinas")}
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  CABINAS
+                </div>
+                <div
+                  id="maquinasyequipos"
+                  name="maquinasyequipos"
+                  onClick={() =>
+                    handleSelection("maquinasyequipos", "maquinasyequipos")
+                  }
+                  style={{
+                    padding: "15px 0px",
+                    borderBottom: "solid 2px #fff",
+                    cursor: "pointer",
+                  }}
+                >
+                  MAQUINAS Y EQUIPOS VARIOS (Transporte, Movimientos, etc.)
                 </div>
               </div>
             </div>

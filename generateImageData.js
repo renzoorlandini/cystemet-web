@@ -1,6 +1,8 @@
 import fs from "fs";
 import path from "path";
 
+// Implementation: node generateImageData.js folder_name_inside_images
+
 // Function to get the current directory from import.meta.url
 const getCurrentDir = () => {
   const url = import.meta.url;

@@ -43,8 +43,8 @@ const OpenStreetMapsPage = () => {
       <div className="os-maps-container felx-center  bsbb border-3-white">
         <div className="flex-r flex-center border-3-whitye ">
           <SimpleMap
-            lat={-32.99548609419451}
-            lng={-60.635625590324594}
+            lat={-33.082991}
+            lng={-60.698481}
             zoom={15}
             height="100%"
             width="100%"

@@ -92,6 +92,18 @@ const FrameN1 = () => {
                       />
                     </Link>
                   </div>
+                  <div
+                    className=" flex-r flex-center "
+                    style={{
+                      borderRadius: "6px",
+                      gap: "10px",
+                      height: "auto",
+                    }}
+                  >
+                    <div className="flex-r flex-center">
+                      <FaRegCircleDot />
+                    </div>
+                  </div>
 
                   <div className="f1-cell flex-center hide-on-mobile">
                     <Link to="/maps">
@@ -125,7 +137,7 @@ const FrameN1 = () => {
                     </Link>
                   </div> */}
 
-                  <div className="f1-cell flex-end equipment-cell">
+                  {/* <div className="f1-cell flex-end equipment-cell">
                     <Link to="/equipment-c">
                       <RiToolsFill
                         className="flex-r flex-center"
@@ -136,8 +148,8 @@ const FrameN1 = () => {
                         }}
                       />
                     </Link>
-                  </div>
-                  <div className="f1-cell flex-end equipment-web">
+                  </div> */}
+                  {/* <div className="f1-cell flex-end equipment-web">
                     <Link to="/equipment">
                       <RiToolsFill
                         className="flex-r flex-center"
@@ -148,7 +160,7 @@ const FrameN1 = () => {
                         }}
                       />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -166,8 +178,8 @@ const FrameN1 = () => {
                   <div className="cystemet-box-font1">CYSTEMET S.R.L.</div>
                   <div className="flex-r" style={{ height: "10px" }}></div>
                   <div className="cystemet-box-font2">
-                    Construcciones y servicios tecnológicos
-                    electro-metalmecánicos
+                    Expertos en construcción de estructuras metalúrgicas bajo
+                    planos.
                   </div>
                 </div>
               </div>
@@ -258,7 +270,7 @@ const FrameN1 = () => {
                           to="/works"
                           className="flex-r flex-center gap-10 "
                         >
-                          <div className="flex-r">Trabajos </div>
+                          <div className="flex-r ">Trabajos </div>
                           <div className="flex-r">
                             <FaArrowRight />
                           </div>

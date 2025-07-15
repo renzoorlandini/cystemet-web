@@ -115,12 +115,12 @@ const NavbarResponsive = () => {
               </div>
             </NavLink>
 
-            <NavLink to={"/equipment"} className="nav-tab ">
+            {/* <NavLink to={"/equipment"} className="nav-tab ">
               <div className="flex-r flex-center gap-15">
                 <FaTools style={{ fontSize: "15px" }} />
                 Equipamiento
               </div>
-            </NavLink>
+            </NavLink> */}
 
             <NavLink to={"/accordion"} className="nav-tab">
               <div className="flex-r flex-center gap-15">
@@ -210,7 +210,7 @@ const NavbarResponsive = () => {
               <RiMailFill style={{ fontSize: "15px" }} /> Trabajos
             </div>
           </li>
-          <li
+          {/* <li
             data-page="equipment-c"
             onClick={handleCellNav}
             className="nav-tab-side"
@@ -223,7 +223,7 @@ const NavbarResponsive = () => {
               <FaTools style={{ fontSize: "15px" }} />
               Equipamiento
             </div>
-          </li>
+          </li> */}
           <li
             data-page="accordion"
             onClick={handleCellNav}

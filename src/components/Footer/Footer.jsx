@@ -37,11 +37,10 @@ const Footer = () => {
           }}
         >
           <div>
-            Fábrica, Admin. y Dir. Fiscal : 
-            <div>Ruta Provinvial N°18, Km. 6.1 - 2119
-            Piñero (Sta. Fe).</div>
+            Fábrica, Admin. y Dir. Fiscal :
+            <div>Ruta Provinvial N°18, Km. 6.1 - 2119 Piñero (Sta. Fe).</div>
           </div>
-          <div>E-Mail : cystemetsrl@outlook.com.ar / rodectm@outlook.com</div>
+          <div>E-Mail : ventas@cystemetsrl.com</div>
 
           <div>Teléfono : 0341 3175894</div>
         </div>
