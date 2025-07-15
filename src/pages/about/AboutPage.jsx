@@ -23,7 +23,7 @@ const AboutPage = () => {
           >
             <div className=" flex-c about flexc-hcenter ">
               <div className="about-title">
-                <h2>C Y S T E M E T S . R . L .</h2>
+                <h2>C Y S T E M E T S .</h2>
               </div>
 
               <div>
