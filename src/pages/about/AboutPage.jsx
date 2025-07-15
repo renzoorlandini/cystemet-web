@@ -22,9 +22,9 @@ const AboutPage = () => {
             // style={{ border: "3px solid #807272" }}
           >
             <div className=" flex-c about flexc-hcenter ">
-              <div className="about-title">
-                <h2>C Y S T E M E T S .</h2>
-              </div>
+              {/* <div className="about-title">
+                <h2>C Y S T E M E T .</h2>
+              </div> */}
 
               <div>
                 <div
