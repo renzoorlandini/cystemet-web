@@ -51,9 +51,9 @@ const AboutPage = () => {
                     Expertos en construcción de estructuras metalúrgicas,
                     metálicas, metal-mecánicas, y electromecánicas.
                   </h2>
-                  <br />
+                  {/* <br /> */}
                   Nos especializamos en la construcción de estructuras
-                  metalúrgicas metálicas metal-mecánicas personalizadas según
+                  metalúrgicas, metálicas, metal-mecánicas, personalizadas según
                   planos y/o especificaciones de nuestros clientes. Con años de
                   experiencia y un equipo de expertos en metalúrgica, nos
                   enfocamos en brindar soluciones de alta calidad y precisión.
