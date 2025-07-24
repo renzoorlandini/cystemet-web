@@ -1,6 +1,10 @@
 const accordionData = () => {
   const data = [
     {
+      title: "ALUAR ALUMINIO ARGENTINO S.A.I.C.",
+      content: [],
+    },
+    {
       title: "AVALIAN / ACA Salud",
       content: ["Barandas de Escaleras.", "Pergolas de Patio."],
     },
@@ -19,6 +23,10 @@ const accordionData = () => {
       ],
     },
     {
+      title: "FATE S.A.I.C.I.",
+      content: [],
+    },
+    {
       title: "INDUSTRIAS J. F. SECCO S.A.",
       content: [
         " Fabricacion de Piezas y/o Equipos Bajo Planos: Bateas con Plataformas y Escaleras para Tanques de 2,5; 5 y 10 m3.",
@@ -33,12 +41,14 @@ const accordionData = () => {
         "Plataformas, Barandas, Escaleras varias.",
       ],
     },
-
+    {
+      title: "INDUSTRIAS PIÑERO S.R.L.",
+      content: [],
+    },
     {
       title: "INFYA S.R.L.",
       content: ["Fabricacion de Ductos de Aspiracion."],
     },
-
     {
       title: "Ing. PELLEGRINET S.A.",
       content: [
@@ -46,7 +56,6 @@ const accordionData = () => {
         "Encofrados Metalicos para Hormigon.",
       ],
     },
-
     {
       title: "Ing. RINALDI, Serv. Ind. S.A.",
       content: [
@@ -54,7 +63,10 @@ const accordionData = () => {
         "Barandas Metalicas para Pasarelas en Planta Gerdau.",
       ],
     },
-
+    {
+      title: "IPA S.A.",
+      content: [],
+    },
     {
       title: "IZUCO Constructora S.A.",
       content: [
@@ -62,36 +74,24 @@ const accordionData = () => {
         "Boxes de Troncos para Estiba de Troncos en Aserradero.",
       ],
     },
-
     {
       title: "JUAN RONCAGLIA S.A.I.C.",
       content: [
         "Fabricacion de Piezas Metalicas Bajo Plano para ser Revestidas con Caucho (Bateas, Cañerias, etc.).",
       ],
     },
-
     {
       title: "PRELAST S.R.L.",
       content: [
         "Fabricacion de Tanque para Procesos, Bajo Norma ASME 8 (Div. 1).",
       ],
     },
-
     {
       title: "RENOVA S.A.",
       content: [
         "Fabricacion y Montaje de Estructuras Metalicas (Vigas, Pasarelas, Plataformas, Escaleras y Barandas) en Obra Timbues.",
       ],
     },
-
-    {
-      title: "SECIN S.A.",
-      content: [
-        "Fabricacion de Plataformas Circulares y Rectangulares con sus Barandas y Escaleras Marineras para Equipos de Obra SHELL (Campana).",
-        "Fabricacion de Skid para el Paquetizado de Equipos de Proceso para Cliente TGS.",
-      ],
-    },
-
     {
       title: "S.A.P. S.R.L. (Servicios y Acesoramiento Portuarios)",
       content: [
@@ -100,7 +100,13 @@ const accordionData = () => {
         "Carro Trailer para Transporte de Herramientas a Puerto.",
       ],
     },
-
+    {
+      title: "SECIN S.A.",
+      content: [
+        "Fabricacion de Plataformas Circulares y Rectangulares con sus Barandas y Escaleras Marineras para Equipos de Obra SHELL (Campana).",
+        "Fabricacion de Skid para el Paquetizado de Equipos de Proceso para Cliente TGS.",
+      ],
+    },
     {
       title: "TENARIS ARGENTINA S.A.",
       content: [
@@ -110,7 +116,6 @@ const accordionData = () => {
         "SIAT S.A.: ",
       ],
     },
-
     {
       title: "TERNIUM ARGENTINA S.A. (SIDERAR)",
       content: [
@@ -125,7 +130,6 @@ const accordionData = () => {
         "Columnas y Vigas de Estructuras de Naves.",
       ],
     },
-
     {
       title: "TERMINAL PUERTO ROSARIO S.A.",
       content: [
@@ -135,22 +139,6 @@ const accordionData = () => {
         "Reparacion y Automatismo de Cinta Transportadora.",
         "REV.",
       ],
-    },
-    {
-      title: "ALUAR ALUMINIO ARGENTINO S.A.I.C.",
-      content: [],
-    },
-    {
-      title: "FATE S.A.I.C.I.",
-      content: [],
-    },
-    {
-      title: "INDUSTRIAS PIÑERO S.R.L.",
-      content: [],
-    },
-    {
-      title: "IPA S.A.",
-      content: [],
     },
   ];
 
