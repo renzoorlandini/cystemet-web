@@ -11,7 +11,7 @@ const AboutPage = () => {
           color: "#fff",
           background: "#161414",
           borderBottom: "3px solid #807272",
-          // minWidth: "1200px",
+          minWidth: "1300px",
           // padding: "10px",
           // border: "3px solid #1f1d1d",
         }}
@@ -43,13 +43,15 @@ const AboutPage = () => {
                     CYSTEMET SRL
                   </h1>
                   <h2
-                    style={{
-                      width: "max-content",
-                      // borderBottom: "solid 2px #509adf",
-                    }}
+                    style={
+                      {
+                        // width: "max-content",
+                        // borderBottom: "solid 2px #509adf",
+                      }
+                    }
                   >
                     Expertos en construcción de estructuras metalúrgicas,
-                    metálicas, metal-mecánicas, y electromecánicas.
+                    metálicas, metal-mecánicas y electromecánicas.
                   </h2>
                   {/* <br /> */}
                   Nos especializamos en la construcción de estructuras

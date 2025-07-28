@@ -15,6 +15,8 @@ const estructurasmedianasylivianas = [
   { id: 14, url: "./images/EstructurasMedianasLivianas/14.jpg" },
   { id: 15, url: "./images/EstructurasMedianasLivianas/15.jpg" },
   { id: 16, url: "./images/EstructurasMedianasLivianas/16.jpg" },
+  { id: 17, url: "./images/EstructurasMedianasLivianas/EL1.png" },
+  { id: 18, url: "./images/EstructurasMedianasLivianas/EL2.png" },
 ];
 
 export default estructurasmedianasylivianas;

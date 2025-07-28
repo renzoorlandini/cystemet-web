@@ -110,10 +110,13 @@ const accordionData = () => {
     {
       title: "TENARIS ARGENTINA S.A.",
       content: [
-        "SIDERCA S.A.I. y C.: ",
+        "IDERCA S.A.I. y C.: ",
         "Fabricacion de Bastidor Movil Revatible en Linea de Procesos.",
         "Fabricacion de Placas de Agua con Serpentinas de Circulacion de Agua de Enfriamiento (Material Totalmente en Ac. Inox. AISI 304)",
-        "SIAT S.A.: ",
+        "SIAT S.A. ",
+        "METALMECÁNICA S.A",
+        "OLDFIELD SERVICES S.A.",
+        "TECPETROL S.A",
       ],
     },
     {

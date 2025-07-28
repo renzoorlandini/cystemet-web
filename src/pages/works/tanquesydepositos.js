@@ -18,6 +18,16 @@ const tanquesydepositos = [
   { id: 17, url: "./images/TanquesYDepositos/17.jpeg" },
   { id: 18, url: "./images/TanquesYDepositos/18.jpeg" },
   { id: 19, url: "./images/TanquesYDepositos/19.jpeg" },
+  { id: 20, url: "./images/TanquesYDepositos/TAN1.png" },
+  { id: 21, url: "./images/TanquesYDepositos/TAN2.png" },
+  { id: 22, url: "./images/TanquesYDepositos/TAN3.png" },
+  { id: 23, url: "./images/TanquesYDepositos/TAN4.png" },
+  { id: 24, url: "./images/TanquesYDepositos/TAN5.png" },
+  { id: 25, url: "./images/TanquesYDepositos/TAN6.png" },
+  { id: 26, url: "./images/TanquesYDepositos/TAN7.png" },
+  { id: 27, url: "./images/TanquesYDepositos/TAN8.png" },
+  { id: 28, url: "./images/TanquesYDepositos/TAN9.png" },
+  { id: 29, url: "./images/TanquesYDepositos/TAN10.png" },
 ];
 
 export default tanquesydepositos;

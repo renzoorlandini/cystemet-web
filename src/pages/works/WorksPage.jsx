@@ -91,6 +91,7 @@ const WorksPage = () => {
           <div className="wrapper-f1" style={{ background: "#ffffff" }}>
             <div
               className="works-menu"
+              translate="no"
               id="worksmenu"
               style={{
                 minHeight: "400px",

@@ -1,18 +1,17 @@
 .accordion-page-wrapper {
   display: flex;
   width: 100%;
+  min-width: 1300px;
+
   box-sizing: border-box;
-  background: rgb(255, 255, 255);
+  background: rgb(96, 191, 214);
   /* min-width: 100vw; */
   min-height: calc(100vh - 60px);
   box-sizing: border-box;
   /* background-image: url("images/back-7.jpg"); */
   /* background: rgb(255, 255, 255, 0.8); */
   background: rgb(0, 0, 0);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: right;
-  background-size: cover;
+
   /* padding: 100px; */
 }
 

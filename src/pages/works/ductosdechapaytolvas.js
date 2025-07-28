@@ -23,6 +23,19 @@ const ductosdechapaytolvas = [
   { id: 22, url: "./images/DuctosDeChapaRoladaYTolvas/22.jpeg" },
   { id: 23, url: "./images/DuctosDeChapaRoladaYTolvas/23.jpeg" },
   { id: 24, url: "./images/DuctosDeChapaRoladaYTolvas/24.jpeg" },
+  { id: 25, url: "./images/DuctosDeChapaRoladaYTolvas/z7.jpg" },
+  { id: 26, url: "./images/DuctosDeChapaRoladaYTolvas/z8.jpg" },
+  { id: 27, url: "./images/DuctosDeChapaRoladaYTolvas/z9.jpg" },
+  { id: 28, url: "./images/DuctosDeChapaRoladaYTolvas/z10.jpg" },
+  { id: 29, url: "./images/DuctosDeChapaRoladaYTolvas/z11.jpg" },
+  { id: 30, url: "./images/DuctosDeChapaRoladaYTolvas/z12.jpg" },
+  { id: 31, url: "./images/DuctosDeChapaRoladaYTolvas/DUC1.png" },
+  { id: 32, url: "./images/DuctosDeChapaRoladaYTolvas/DUC2.png" },
+  { id: 33, url: "./images/DuctosDeChapaRoladaYTolvas/DUC3.png" },
+  { id: 34, url: "./images/DuctosDeChapaRoladaYTolvas/DUC4.png" },
+  { id: 35, url: "./images/DuctosDeChapaRoladaYTolvas/DUC5.png" },
+  { id: 36, url: "./images/DuctosDeChapaRoladaYTolvas/DUC6.png" },
+  { id: 37, url: "./images/DuctosDeChapaRoladaYTolvas/DUC7.png" },
 ];
 
 export default ductosdechapaytolvas;

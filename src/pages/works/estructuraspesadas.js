@@ -35,6 +35,9 @@ const estructuraspesadas = [
   { id: 34, url: "./images/EstructurasPesadas/34.jpeg" },
   { id: 35, url: "./images/EstructurasPesadas/35.jpeg" },
   { id: 36, url: "./images/EstructurasPesadas/36.jpeg" },
+  { id: 37, url: "./images/EstructurasPesadas/EP1.png" },
+  { id: 38, url: "./images/EstructurasPesadas/EP2.png" },
+  { id: 39, url: "./images/EstructurasPesadas/EP3.png" },
 ];
 
 export default estructuraspesadas;

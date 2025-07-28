@@ -178,8 +178,8 @@ const FrameN1 = () => {
                   <div className="cystemet-box-font1">CYSTEMET S.R.L.</div>
                   <div className="flex-r" style={{ height: "10px" }}></div>
                   <div className="cystemet-box-font2">
-                    Expertos en construcción de estructuras metalúrgicas bajo
-                    planos.
+                    Expertos en construcción de estructuras metalúrgicas,
+                    metálicas, metal-mecánicas y electromecánicas.
                   </div>
                 </div>
               </div>

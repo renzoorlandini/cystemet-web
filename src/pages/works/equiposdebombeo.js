@@ -10,7 +10,7 @@ const equiposdebombeo = [
   { id: 9, url: "./images/EquiposDeBombeo/9.jpg" },
   { id: 10, url: "./images/EquiposDeBombeo/10.jpeg" },
   { id: 11, url: "./images/EquiposDeBombeo/11.jpg" },
-  { id: 12, url: "./images/EquiposDeBombeo/12.jpg" },
+  // { id: 12, url: "./images/EquiposDeBombeo/12.jpg" },
   { id: 13, url: "./images/EquiposDeBombeo/13.jpeg" },
   { id: 14, url: "./images/EquiposDeBombeo/14.jpeg" },
   { id: 15, url: "./images/EquiposDeBombeo/15.jpeg" },
@@ -21,6 +21,12 @@ const equiposdebombeo = [
   { id: 20, url: "./images/EquiposDeBombeo/20.jpeg" },
   { id: 21, url: "./images/EquiposDeBombeo/21.jpeg" },
   { id: 22, url: "./images/EquiposDeBombeo/22.jpeg" },
+  { id: 23, url: "./images/EquiposDeBombeo/BOM1.png" },
+  { id: 24, url: "./images/EquiposDeBombeo/BOM2.png" },
+  { id: 25, url: "./images/EquiposDeBombeo/BOM3.png" },
+  { id: 26, url: "./images/EquiposDeBombeo/BOM4.png" },
+  { id: 27, url: "./images/EquiposDeBombeo/BOM5.png" },
+  { id: 28, url: "./images/EquiposDeBombeo/BOM6.png" },
 ];
 
 export default equiposdebombeo;

@@ -7,10 +7,10 @@ const AccordionPage = () => {
 
   return (
     <>
-      <div className="flex-r flex-w100 bsbb" style={{ height: "60px" }}></div>
+      <div className="flex-r flex-w100 bsbb " style={{ height: "60px" }}></div>
 
-      <div className="accordion-page-wrapper bsbb flexr-hcenter ">
-        <div className="flex-c bsbb flex-center accpad">
+      <div className="accordion-page-wrapper bsbb flex-center ">
+        <div className="flex-c bsbb flex-center accpad " translate="no">
           <AccordionOneColumn items={items} />
         </div>
       </div>
