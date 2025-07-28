@@ -5,27 +5,20 @@ const AboutPage = () => {
     <>
       <div className="flex-r" style={{ height: "60px" }}></div>
       <div
-        className="flex-c w100  flex-center"
+        className="flex-c w100 flex-center rep" // Removed 'resp' class here
         style={{
           minHeight: "calc(100vh - 60px)",
           color: "#fff",
           background: "#161414",
           borderBottom: "3px solid #807272",
-          minWidth: "1300px",
-          // padding: "10px",
-          // border: "3px solid #1f1d1d",
         }}
       >
         <div className="flex-r flex-center ">
           <div
-            className="flex-r  about-wrapper flex-center "
-            // style={{ border: "3px solid #807272" }}
+            className="flex-r about-wrapper flex-center"
+            // The about-wrapper will handle its own width responsiveness
           >
-            <div className=" flex-c about flexc-hcenter ">
-              {/* <div className="about-title">
-                <h2>C Y S T E M E T .</h2>
-              </div> */}
-
+            <div className="flex-c about flexc-hcenter">
               <div>
                 <div
                   style={{
@@ -42,18 +35,10 @@ const AboutPage = () => {
                   >
                     CYSTEMET SRL
                   </h1>
-                  <h2
-                    style={
-                      {
-                        // width: "max-content",
-                        // borderBottom: "solid 2px #509adf",
-                      }
-                    }
-                  >
+                  <h2>
                     Expertos en construcción de estructuras metalúrgicas,
                     metálicas, metal-mecánicas y electromecánicas.
                   </h2>
-                  {/* <br /> */}
                   Nos especializamos en la construcción de estructuras
                   metalúrgicas, metálicas, metal-mecánicas, personalizadas según
                   planos y/o especificaciones de nuestros clientes. Con años de
@@ -180,9 +165,6 @@ const AboutPage = () => {
                   Gracias a nuestro personal idóneo y el uso de sistemas
                   avanzados, garantizamos resultados óptimos para nuestros
                   clientes. Contamos con:
-                  {/* Contando con el personal idóneo, utilizando modernos sistemas
-                  para los proyectos a fines de lograr la condición óptima para
-                  nuestros clientes, contamos con: */}
                   <br />
                   <br />
                   • ingeniería de detalle.
@@ -209,10 +191,6 @@ const AboutPage = () => {
                   maquinaria de última generación. Esto nos permite llevar a
                   cabo construcciones metal-mecánicas y desarrollar equipos
                   especiales con la máxima eficiencia y precisión.
-                  {/* Nos destacamos por contar, con importantes naves fabriles
-                  equipadas con maquinarias de última generación, con el
-                  objetivo de realizar construcciones metalmecánicas y de
-                  equipos especiales llave en mano. */}
                   <br />
                   <br />
                   Nuestro proceso productivo está cuidadosamente planificado y
@@ -225,17 +203,6 @@ const AboutPage = () => {
                   ya sea para proyectos metal-mecánicos o de equipos especiales,
                   garantizando la calidad en todo momento, respaldados por
                   nuestras tecnologías de última generación.
-                  {/* Nuestro proceso productivo se encuentra planificado y
-                  organizado a través de sistemas interactivos que elaboran los
-                  distintos sectores de la cadena productiva, obteniendo con
-                  ello eficiencia y rindes altamente ventajosos para nuestros
-                  clientes. Es por ello que tanto para el desarrollo de cálculos
-                  estructurales, ingeniería, construcción y montaje, de
-                  cualquier tipo de proyecto metalmecánico y/o de equipos
-                  especiales, nuestra empresa se adapta a necesidades y
-                  exigencias del cliente, en un marco de aseguramiento de la
-                  calidad otorgado por nuestras tecnologías de ultima generación
-                  adquiridas. */}
                   <br />
                   <br />
                   Por otra parte, queremos destacar que nuestra empresa está
@@ -253,7 +220,6 @@ const AboutPage = () => {
                 </div>
                 <div
                   style={{
-                    // borderBottom: "3px solid #807272",
                     paddingBottom: "30px",
                     paddingTop: "10px",
                   }}
