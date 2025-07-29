@@ -81,6 +81,10 @@ const accordionData = () => {
       ],
     },
     {
+      title: "OLDFIELD SERVICES S.A.",
+      content: [],
+    },
+    {
       title: "PRELAST S.R.L.",
       content: [
         "Fabricacion de Tanque para Procesos, Bajo Norma ASME 8 (Div. 1).",
@@ -108,6 +112,10 @@ const accordionData = () => {
       ],
     },
     {
+      title: "TECPETROL S.A",
+      content: [],
+    },
+    {
       title: "TENARIS ARGENTINA S.A.",
       content: [
         "IDERCA S.A.I. y C.: ",
@@ -115,8 +123,6 @@ const accordionData = () => {
         "Fabricacion de Placas de Agua con Serpentinas de Circulacion de Agua de Enfriamiento (Material Totalmente en Ac. Inox. AISI 304)",
         "SIAT S.A. ",
         "METALMECÁNICA S.A",
-        "OLDFIELD SERVICES S.A.",
-        "TECPETROL S.A",
       ],
     },
     {
